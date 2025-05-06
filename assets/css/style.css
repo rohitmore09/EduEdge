@@ -36,7 +36,7 @@ li{list-style: none;}
 img{max-width: 100%;}
 .text-center{text-align: center;}
 .white_mnhdng{color: var(--white-color);font-size: 30px;}
-.blue_mnhdng{color: var(--title);font-size: 48px;}
+.blue_mnhdng{color: var(--title);font-size: 48px;text-transform: capitalize;}
 section{padding: 60px 0px;}
 .tflx{display: flex;justify-content: center;align-items: center;gap: 10px;}
 .grnclr{color: var(--secondary);font-family: 'bold';}
@@ -71,14 +71,14 @@ section{padding: 60px 0px;}
 .primary__btn{background: var(--secondary);padding: 12px 18px;color: var(--white-color) !important;border-radius: 4px;position: relative;width: fit-content;display: flex;transition: .3s ease-in;}
 .primary__btn span{font-weight: normal;}
 .primary__btn:hover{background: var(--primary);}
-.primary__btn img{width: auto;height: auto;margin-left: 10px;}
+.primary__btn img{width: 8px;height: auto;margin-left: 10px;}
 .white-btn {background: var(--white-color);padding: 15px 20px;color: var(--secondary) !important;border-radius: 4px;width: fit-content;transition: .3s ease-in;margin-top: 10px;display: block;}
 .white-btn span{margin-right: 10px;margin-top: 20px;transition: .3s ease-in;}
 .white-btn img{width: 9px;height: auto;position: relative;top: 3px;}
 .white-btn:hover{background: var(--secondary);}
 .white-btn:hover span{color: var(--white-color);}
 .secondary-btn{color: var(--secondary);font-size: 15px;display: flex;align-items: center;margin-top: 20px;font-weight: 600;transition: .3s ease-in-out;width: fit-content;}
-.secondary-btn img{position: relative;left: 7px;top: 1px;display: block;width: 7px;}
+.secondary-btn img{position: relative;left: 8px;top: 1px;display: block;width: 8px;}
 .secondary-btn:hover{padding-left: 5px;}
 /* ---Btns */
 
@@ -372,7 +372,54 @@ footer{background: var(--primary);}
 
 /* homepage */
 
+/* CONTACT */
+.contact__section{padding-top: 200px;padding-bottom: 60px;}
+.contact_flx{display: flex;margin-top: 40px;gap: 20px;justify-content: space-between;}
+.contact_flx .contact_left{width: 65%;}
+.contact_flx .left_dtls{width: 100%;}
+.contact_flx .left_dtls ul{display:flex;justify-content: space-between;flex-wrap: wrap;gap: 20px;}
+.contact_flx .left_dtls ul li{background: var(--bg-color);flex: 48%;display: grid;grid-template-columns:.1fr 1fr;align-items: center;gap: 20px;padding:25px 20px;border-radius: 4px;}
+.contact_flx .left_dtls ul li .dt_img{background: var(--secondary);border-radius: 100px;width: 60px;height: 60px;text-align: center;display: flex;justify-content: center;align-items: center;}
+.contact_flx .left_dtls ul li .dt_img img{width:32px;height: auto;}
+.dt_cntct h5{font-size: 20px;margin-bottom: 10px;}
+.dt_cntct p{font-size: 15px;margin-bottom: 0px;}
+.contact_left .counter09{display: flex;justify-content: space-between;background-color: var(--secondary);flex-wrap: wrap;align-items: center;text-align: center;margin-top: 50px;border-radius: 4px;}
+.contact_left .counter09 > div{flex: 33.33%;padding: 25px 0px;position: relative;}
+.contact_left .counter09 > div::before{position: absolute;content: '';background: var(--white-color);width: 1px;height: 80px;bottom: 20px;right: 0;}
+.contact_left .counter09 > div:last-child::before{content: none;}
+.contact_left .counter09 h2{font-size: 35px;color: var(--white-color);}
+.contact_left .counter09 p{color: var(--white-color);font-size: 15px;}
 
+.contact_right{width: 30%;margin-right: 0;}
+.contact_right form{width: 100%;background-color: var(--primary);padding: 20px;border-radius: 4px;}
+.contact_right form h2{text-align: center;color: var(--white-color);margin-bottom: 10px;}
+.contact_right form .frm-group{padding:5px 0px;}
+.contact_right .frm-group input::placeholder{color:#C5696A;}
+.contact_right form .frm-group input, select{width: 100%;padding: 10px 20px;color:var(--white-color);background: transparent;border:1px solid var(--white-color);border-radius: 4px;outline: none;}
+.contact_right .frm-btn button{cursor: pointer;padding: 10px 20px;border-radius: 4px;outline: none;background-color: var(--white-color);margin: 18px auto;border: 1px solid var(--primary);gap: 10px;}
+.contact_right .frm-btn button:hover{background: var(--primary);color: var(--white-color);border: 1px solid var(--white-color);}
+.contact_right .frm-btn button svg{width: 8px;}
+
+/* Reviews */
+.contact_reviews{display: grid;grid-template-columns: repeat(4, 1fr);position: relative;gap: 20px;}
+.contact_reviews .main_reviews{position: relative;padding: 70px 20px 40px;border: 1px solid;border-image-source: linear-gradient(130.29deg, #f2f2f2 9.68%, #005552 13.43%, #005552 23.48%);border-image-slice: 1;border-image-repeat: stretch;border-radius: 15px;}
+.contact_reviews .main_reviews::before{position: absolute;content: '';background:url(../imgs/logo/quotes.svg)no-repeat;background-repeat: no-repeat;width: 50px;height: 50px;background-size: cover;top: -7px;left: -2px;}
+.contact_reviews .main_reviews img{width: 100px;}
+.contact_reviews .main_reviews p{font-size: 15px;margin: 20px 0px;min-height: 85px;}
+.contact_reviews .main_reviews h5{font-size: 13px;letter-spacing:0.5px;}
+/* Reviews */
+
+/* contact info */
+.contact_information{display: flex;gap:20px;flex-wrap: wrap;text-align: center;}
+.contact_information .contfo{background-color: var(--bg-color);flex: 1;display: flex;flex-direction: column;align-items:center;justify-content:center;padding: 20px;box-sizing: border-box;min-height: 230px;border-radius: 4px;}
+.contact_information .contfo .icon-dv{background-color: var(--secondary);width: 55px;height: 55px;display: flex;align-items: center;justify-content: center;border-radius: 100px;margin-bottom: 10px;}
+.contact_information .contfo .icon-dv img{width: 20px;}
+.contact_information .contfo p {font-size: 15px;}
+.contact_information .contfo p a{font-size: 20px;color: var(--black-color);}
+.contact_information .contfo p a:hover{border-bottom:1px solid var(--primary);}
+/* contact info */
+
+/* CONTACT */
 
 
 /* Responsive */
@@ -541,6 +588,17 @@ footer{padding-bottom: 100px;}
 /* ---eleventh-sec */
 
 /* HOMEPAGE */
+
+/* CONTACT */
+.contact__section{padding-top: 100px;}
+.contact_flx{flex-direction: column-reverse;}
+.contact_flx .contact_right, .contact_flx .contact_left{width: 100%;}
+.contact_flx .left_dtls ul{gap: 5px;}
+.contact_left .counter09 h2{font-size: 30px;margin-bottom: 2px;}
+.contact_left .counter09 p{font-size: 14px;}
+.contact_reviews{grid-template-columns: repeat(2, 1fr);}
+.contact_information .contfo{flex: 100%;}
+/* CONTACT */
 
 }
 

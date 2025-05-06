@@ -1,4 +1,4 @@
-<?php $base_url ="https://www.agency09.co/staging/Eduedge/";?>
+<?php $base_url ="http://localhost/www/eduedge/EduEdge/";?>
 
 <!-- CSS -->
  <link rel="stylesheet" href="<?php $base_url;?>assets/css/flaticon.css" />
