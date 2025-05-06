@@ -13,18 +13,21 @@
     <?php include 'components/header.php'; ?>
     <!-- header -->
 
+    <div class="pt-space"></div>
 
     <!-- breadcrumb -->
     <div class="breadcrumb">
+        <div class="container">
         <ul class="breadcrumb-item">
             <li>
-                <a href=""></a>
+                <a href="<?php echo $base_url;?>">Home</a>
+                <img src="<?php echo $base_url;?>assets/imgs/logo/righticon_green.svg" alt="Icon" class="spcbtwn">
             </li>
-            <li></li>
             <li>
-                <a href=""></a>
+                <a class="active">Contact Us</a>
             </li>
         </ul>
+        </div>
     </div>
     <!-- breadcrumb -->
 
