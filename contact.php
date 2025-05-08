@@ -174,7 +174,7 @@
                     </div>
                     <p>401/402/403, Dheeraj Plaza, Above Colors Showroom, Opp. Bandra Police Station,
                         Hill Road, Bandra (W), Mumbai 400050, India.</p>
-                    <a href="#" class="secondary-btn">
+                    <a href="https://maps.app.goo.gl/xhP5WfU1WDo47dDC8" target="_blank" class="secondary-btn">
                         <span>View in Google Maps</span>
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Logo">
                     </a>

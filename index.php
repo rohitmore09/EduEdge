@@ -28,14 +28,18 @@
 
                     <div class="container">
                         <div class="slides-content">
-                            <h1>Your journey to top global<br> universities start here</h1>
+                            <h1>Your Gateway to Top<br> Scores & Global Universities</h1>
                             <ul>
-                                <li>SAT, GMAT, IELTS prep</li>
-                                <li>Application support for UG & PG</li>
-                                <li>1:1 mentoring with industry experts</li>
+                                <li>Smart SAT, GRE, GMAT, IELTS & AP prep</li>
+                                <li>End-to-end UG & PG application support</li>
+                                <li>1:1 expert mentoring for maximum impact</li>
                             </ul>
                             <div class="slider_btn">
-                                <a href="#" class="white-btn"><span>Explore Test Prep</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon" width="8" height="16"></a>
+                                <a href="#" class="white-btn"><span>Start Your Test Prep</span>
+                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -49,14 +53,18 @@
 
                     <div class="container">
                         <div class="slides-content">
-                            <h1>Your journey to top global<br> universities start here</h1>
+                            <h1>Turn Ambitions into<br> Global Admissions</h1>
                             <ul>
-                                <li>SAT, GMAT, IELTS prep</li>
-                                <li>Application support for UG & PG</li>
-                                <li>1:1 mentoring with industry experts</li>
+                                <li>Personalized program & university selection</li>
+                                <li>Applications, SOPs, LORs, visa prep — all covered</li>
+                                <li>Coaching for interviews & pre-university training</li>
                             </ul>
                             <div class="slider_btn">
-                                <a href="#" class="white-btn"><span>Explore Test Prep</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon" width="8" height="16"></a>
+                                <a href="#" class="white-btn"><span>Explore Study Abroad Services</span>
+                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -70,14 +78,18 @@
 
                     <div class="container">
                         <div class="slides-content">
-                            <h1>Your journey to top global<br> universities start here</h1>
+                            <h1>Beyond Grades: Build a<br> Winning Profile</h1>
                             <ul>
-                                <li>SAT, GMAT, IELTS prep</li>
-                                <li>Application support for UG & PG</li>
-                                <li>1:1 mentoring with industry experts</li>
+                                <li>Strategic profile enhancement for UG & PG admissions</li>
+                                <li>Certifications, skills, projects that universities value</li>
+                                <li>Personalized mentoring to showcase your best self</li>
                             </ul>
                             <div class="slider_btn">
-                                <a href="#" class="white-btn"><span>Explore Test Prep</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon" width="8" height="16"></a>
+                                <a href="#" class="white-btn"><span>Strengthen Your Profile</span>
+                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -107,32 +119,32 @@
         <div class="container">
             <div class="infbtns">
                 <div class="infhd">
-                    <h2 class="white_mnhdng">Let's Get<br> Started</h2>
+                    <h2 class="white_mnhdng">Explore. Prepare<br> Succeed.</h2>
                 </div>
                 <div class="six_btn">
                     <a href="#">
                         <h4>Test Prep</h4>
-                        <p>SAT, GRE, GMAT, IELTS & more</p>
-                    </a>
-                    <a href="#">
-                        <h4>Mentoring & Councelling</h4>
-                        <p>Applications, SOPs, interviews, profile building</p>
-                    </a>
-                    <a href="#">
-                        <h4>Meet Our Instructors</h4>
-                        <p>Learn from global experts & top scorers</p>
+                        <p>Ace the SAT, GRE, GMAT, IELTS, AP & more</p>
                     </a>
                     <a href="#">
                         <h4>Study Abroad</h4>
                         <p>UG & PG admissions to top global universities</p>
                     </a>
                     <a href="#">
+                        <h4>Mentoring & Counselling</h4>
+                        <p>1:1 guidance for SOPs, applications, interviews & more</p>
+                    </a>
+                    <a href="#">
                         <h4>Certifications</h4>
-                        <p>Upskilling for careers in finance, data, tech & more</p>
+                        <p>Upskill for careers in finance, data, tech & more </p>
+                    </a>
+                    <a href="#">
+                        <h4>Meet Our Instructors </h4>
+                        <p>Learn from Ivy League alumni, experts & top scorers </p>
                     </a>
                     <a href="#">
                         <h4>About EduEdge Pro</h4>
-                        <p>Our story, mission, and impact</p>
+                        <p>Explore our story, vision & impact in education</p>
                     </a>
                 </div>
             </div>
@@ -149,7 +161,9 @@
                         <img src="<?php echo $base_url; ?>assets/imgs/people/mentor.jpg" class="mntrimg" alt="Mentor Image" width="500" height="485">
                         <a href="#" class="secondary-btn">
                             <span>Meet Your Mentor</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon" width="8" height="16">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -231,7 +245,7 @@
 
     <section class="course-sec">
         <div class="container">
-            <h2 class="text-center blue_mnhdng">Test Prep That Delivers</h2>
+            <h2 class="text-center blue_mnhdng">The Way to Prep<br> to Ace Every Test</h2>
             <div class="test-prep">
                 <div class="tab-section" data-tab-section>
                     <ul class="tab-buttons">
@@ -244,16 +258,16 @@
                                     fill="none" stroke="currentColor" stroke-linecap="round"
                                     stroke-linejoin="round" stroke-width="32" />
                             </svg>
-                            <span>Trending</span>
+                            <p>Trending</p>
                         </li>
-                        <li class="tb-cntnt" data-tab="tab2"><span>SAT</span></li>
-                        <li class="tb-cntnt" data-tab="tab3"><span>GRE</span></li>
-                        <li class="tb-cntnt" data-tab="tab4"><span>GMAT</span></li>
-                        <li class="tb-cntnt" data-tab="tab5"><span>PSAT</span></li>
-                        <li class="tb-cntnt" data-tab="tab6"><span>AP</span></li>
-                        <li class="tb-cntnt" data-tab="tab7"><span>ACT</span></li>
-                        <li class="tb-cntnt" data-tab="tab8"><span>IELTS</span></li>
-                        <li class="tb-cntnt" data-tab="tab9"><span>TOEFL</span></li>
+                        <li class="tb-cntnt" data-tab="tab2"><p>SAT</p></li>
+                        <li class="tb-cntnt" data-tab="tab3"><p>GRE</p></li>
+                        <li class="tb-cntnt" data-tab="tab4"><p>GMAT</p></li>
+                        <li class="tb-cntnt" data-tab="tab5"><p>PSAT</p></li>
+                        <li class="tb-cntnt" data-tab="tab6"><p>AP</p></li>
+                        <li class="tb-cntnt" data-tab="tab7"><p>ACT</p></li>
+                        <li class="tb-cntnt" data-tab="tab8"><p>IELTS</p></li>
+                        <li class="tb-cntnt" data-tab="tab9"><p>TOEFL</p></li>
                     </ul>
                     <!-- tabs content -->
                     <div class="tbs active" id="tab1">
@@ -279,7 +293,11 @@
                                     </ul>
                                 </div>
                                 <div class="crdbtn">
-                                    <a href="#" class="secondary-btn"><span>Learn More</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon"></a>
+                                    <a href="#" class="secondary-btn"><span>Learn More</span>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                                </a>
                                 </div>
                             </div>
                             <!-- item -->
@@ -303,7 +321,11 @@
                                     </ul>
                                 </div>
                                 <div class="crdbtn">
-                                    <a href="#" class="secondary-btn"><span>Learn More</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon"></a>
+                                    <a href="#" class="secondary-btn"><span>Learn More</span>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                                </a>
                                 </div>
                             </div>
                             <!-- item -->
@@ -327,7 +349,11 @@
                                     </ul>
                                 </div>
                                 <div class="crdbtn">
-                                    <a href="#" class="secondary-btn"><span>Learn More</span><img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon"></a>
+                                    <a href="#" class="secondary-btn"><span>Learn More</span>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -345,8 +371,10 @@
                 <!-- see all -->
                 <div class="seeall">
                     <a href="#" class="secondary-btn">
-                        <span>See All</span>
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                        <span>View All Programs</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
                 <!-- see all -->
@@ -356,7 +384,7 @@
 
     <section class="journey-sec">
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Your Global Education<br>Journey, Simplified</h2>
+            <h2 class="blue_mnhdng text-center">Master Every Step of<br> Your Global Education</h2>
             <div class="edjourney-cards">
                 <!-- card -->
                 <div class="edjcrd">
@@ -366,10 +394,12 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Counselling</h3>
                         </div>
-                        <p>Get expert guidance to choose the right country, course, and university for your goals.</p>
+                        <p>Expert-driven guidance to choose the right course, country, and university for your future goals.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -381,10 +411,12 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Developing<br>Application</h3>
                         </div>
-                        <p>Craft a standout application that highlights your unique strengths and story.</p>
+                        <p>Build compelling applications that bring your strengths, experiences, and aspirations to life.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -396,10 +428,12 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Review<br>Application</h3>
                         </div>
-                        <p>Polish your submissions with expert feedback to ensure maximum impact.</p>
+                        <p>Perfect your submissions with in-depth expert feedback, ensuring every detail maximizes impact.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -411,25 +445,29 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Profile<br>Building</h3>
                         </div>
-                        <p>Strengthen your academic and extracurricular profile to meet top university standards.</p>
+                        <p>Strategically strengthen your academic and extracurricular profile to match top university expectations.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
                 <!-- card -->
                 <div class="edjcrd">
                     <div class="edj-inside">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/Interview.svg" alt="Interview" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/interview.svg" alt="Interview" width="48" height="48">
                         <div class="lndv">
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Interview<br>Prep</h3>
                         </div>
-                        <p>Ace your admissions interviews through personalized coaching and realistic mock sessions.</p>
+                        <p>Get ready to ace admissions interviews with personalized coaching and simulated practice sessions.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -441,10 +479,12 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Post Application<br>Support</h3>
                         </div>
-                        <p>Navigate waitlists, visa processes, and pre-departure arrangements with confidence.</p>
+                        <p>Navigate waitlists, visa processes, and pre-departure steps with complete confidence.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -456,10 +496,12 @@
                             <img src="<?php echo $base_url; ?>assets/imgs/logo/redline.svg" alt="Line">
                             <h3 class="rgtln">Pre-University<br>Training</h3>
                         </div>
-                        <p>Develop essential skills and a winning mindset before embarking on your academic journey abroad</p>
+                        <p>Gain essential academic skills and a winning mindset before stepping onto a global campus.</p>
                         <a href="#" class="secondary-btn">
                             <span>Explore</span>
-                            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                         </a>
                     </div>
                 </div>
@@ -467,7 +509,9 @@
             <div class="seeall">
                 <a href="#" class="secondary-btn">
                     <span>Explore All Services</span>
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                 </a>
             </div>
         </div>
@@ -476,43 +520,45 @@
     <section class="profile-sec">
         <div class="container">
             <div class="sec-hds">
-                <h2 class="blue_mnhdng text-center">Build a Profile That<br>Gets You Noticed</h2>
-                <p class="text-center">From academics to internships, we help you craft a profile<br> that stands out for top universities and recruiters.</p>
+                <h2 class="blue_mnhdng text-center">From Potential to Powerhouse </h2>
+                <p class="text-center">Build a winning portfolio and your global profile with expert guidance at every step.</p>
             </div>
             <div class="profilecards">
                 <div class="prfcr">
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/profile1.jpg" alt="Profile" width="304" height="146">
                     <div class="prfdt">
-                        <h4>Academic & Extra-curricular Mapping</h4>
-                        <p>Identify and align your strengths with global expectations.</p>
+                        <h4>Profile Analysis & Roadmap</h4>
+                        <p>Evaluate strengths and build a clear plan aligned to top university expectations.</p>
                     </div>
                 </div>
                 <div class="prfcr">
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/profile2.jpg" alt="Profile" width="304" height="146">
                     <div class="prfdt">
-                        <h4>Internships, Research & <br>Certifications</h4>
-                        <p>Discover real-world projects that add weight to your resume.</p>
+                        <h4>Personalized Mentoring</h4>
+                        <p>One-on-one guidance for academics, profile building, timelines, and goal setting.</p>
                     </div>
                 </div>
                 <div class="prfcr">
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/profile3.jpg" alt="Profile" width="304" height="146">
                     <div class="prfdt">
-                        <h4>SOP, LOR & <br>Resume Drafting</h4>
-                        <p>Build compelling narratives that reflect your goals and uniqueness.</p>
+                        <h4>Skill Building & Experiences</h4>
+                        <p>Strengthen your profile through internships, research, leadership, and certifications.</p>
                     </div>
                 </div>
                 <div class="prfcr">
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/profile4.jpg" alt="Profile" width="304" height="146">
                     <div class="prfdt">
-                        <h4>Mentorship & Strategy<br> Planning</h4>
-                        <p>1:1 guidance to shape your academic and career journey.</p>
+                        <h4>Application & Test Prep Support</h4>
+                        <p>Get expert help with SOPs, resumes, university shortlisting, and test prep coaching.</p>
                     </div>
                 </div>
             </div>
             <div class="seeall">
                 <a href="#" class="secondary-btn">
-                    <span>Know More</span>
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                    <span>Start Building Your Profile</span>
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                 </a>
             </div>
         </div>
@@ -599,7 +645,9 @@
             <div class="seeall text-center">
                 <a href="#" class="secondary-btn">
                     <span>View All</span>
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                 </a>
             </div>
         </div>
@@ -609,9 +657,8 @@
     <section class="globaluni greysec">
         <div class="container">
             <div class="tp_univer text-center">
-                <h2 class="blue_mnhdng">Your personalized path to<br>
-                    Ivy League & top global universities.</h2>
-                <p>From profile building to test prep, we support every step of your journey<br> with expert-led guidance and global tools.</p>
+                <h2 class="blue_mnhdng">Your Global Dream,<br> Our Strategic Blueprint</h2>
+                <p>Target top universities with personalized mentoring, expert test prep and 360° support.</p>
             </div>
             <div class="lgcrds">
                 <div class="crd-lgs">
@@ -619,35 +666,35 @@
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Customized Profile Building</h3>
-                    <p>Personalized, grade-wise planning aligned with your academic and career goals—from Class 8 to undergrad applications.</p>
+                    <p>Structured academic and extracurricular plans, tailored from Grade 8 onwards for global readiness.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>1:1 Ivy League Mentoring</h3>
-                    <p>Year-round guidance by mentors from top global universities to shape your SOPs, projects, and extracurriculars.</p>
+                    <p>Direct access to mentors from top universities to guide your SOPs, projects, and achievements.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Integrated Test Prep Solutions</h3>
-                    <p>Premium SAT, GRE, GMAT, ACT, and IELTS prep—powered by Kaplan and BloombergPrep.</p>
+                    <p>Expert coaching for SAT, GRE, GMAT, ACT, and IELTS, powered by Kaplan and BloombergPrep.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Academic & Subject Mastery</h3>
-                    <p>Support for APs, Olympiads, certified courses, and advanced subject-specific excellence.</p>
+                    <p>Specialized support for AP exams, Olympiads, and advanced certifications to showcase subject excellence.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Real-Time Progress Tracking</h3>
-                    <p>Transparent performance reviews, parent updates, and milestone tracking for continuous improvement.</p>
+                    <p>Transparent updates, milestone reviews, and expert-led feedback for continuous academic growth.</p>
                 </div>
             </div>
         </div>
@@ -657,11 +704,13 @@
         <div class="container">
             <div class="dflex">
                 <div class="infrast">
-                    <h2 class="blue_mnhdng">State-of-the-Art Infrastructure</h2>
-                    <p>Our learning spaces are purpose-built to enhance performance — blending modern design, technology, and a student-first approach.</p>
+                    <h2 class="blue_mnhdng">Built for Learning, Designed for Results</h2>
+                    <p>Modern, tech-enabled spaces that put student success at the center.</p>
                     <a href="#" class="primary__btn">
-                        <span>Schedule a free consultation</span>
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon.svg" alt="Icon">
+                        <span>Get a free consultation</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
                 <div class="infraimg">
@@ -673,7 +722,7 @@
 
     <section class="blog_sec">
         <div class="container">
-            <h2 class="blue_mnhdng text-center">What's New</h2>
+            <h2 class="blue_mnhdng text-center">Insights That Matter</h2>
             <div class="all_blogs">
                 <div class="blogs">
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/blog.jpg" class="blog_img" alt="Blog" width="384" height="280">
@@ -684,7 +733,9 @@
                     <h3>2-Month Study Schedule for the GMAT</h3>
                     <a href="#" class="secondary-btn">
                         <span>Read more</span>
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
                 <div class="blogs">
@@ -696,7 +747,9 @@
                     <h3>Mastering Time Management Tactics</h3>
                     <a href="#" class="secondary-btn">
                         <span>Read more</span>
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
                 <div class="blogs">
@@ -708,14 +761,18 @@
                     <h3>EduEdge Pro Becomes Official Kaplan Partner in India</h3>
                     <a href="#" class="secondary-btn">
                         <span>Read more</span>
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
             </div>
             <div class="seeall">
                 <a href="#" class="secondary-btn">
-                    <span>Read More</span>
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+                    <span>Explore All</span>
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
                 </a>
             </div>
         </div>
@@ -728,10 +785,10 @@
                     <img src="<?php echo $base_url; ?>assets/imgs/homepage/potential.jpg" alt="Infra" width="400" height="480">
                 </div>
                 <div class="infrast">
-                    <h2 class="blue_mnhdng">Let’s unlock your potential together</h2>
+                    <h2 class="blue_mnhdng">Take the First Step Toward World-Class Education</h2>
                     <a href="#" class="secondary-btn">
                         <span>Schedule a free consultation</span>
-                        <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                     </a>
@@ -746,15 +803,21 @@
         </div>
         <div class="strip">
             <span>Test Prep</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
         </div>
         <div class="strip">
             <span>Study Abroad</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
         </div>
         <div class="strip">
             <span>Sucess Story</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
+            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
         </div>
     </div>
     <!-- footerstrip -->
