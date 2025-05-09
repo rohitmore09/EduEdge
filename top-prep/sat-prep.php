@@ -21,6 +21,27 @@
             <img src="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg" alt="Banner" class="bannerimg" width="1440" height="768">
         </picture>
         <div class="container">
+            <!-- breadcrumb -->
+        <div class="breadcrumb">
+                <ul class="breadcrumb-item">
+                    <li>
+                        <a href="<?php echo $base_url; ?>">Home</a>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>
+                        <a>Top Prep</a>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>
+                        <a class="active">SAT Prep</a>
+                    </li>
+                </ul>
+        </div>
+        <!-- breadcrumb -->
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
@@ -294,7 +315,6 @@
     </section>
 
     <!-- Accordion -->
-
     <section>
         <div class="container">
             <h2 class="blue_mnhdng text-center">Our SAT Training Approach for<br> Comprehensive Preparation</h2>
@@ -597,7 +617,7 @@
         <div class="container">
             <h2 class="text-center blue_mnhdng">FAQs</h2>
             <div class="tbs-acrd">
-                <div class="tab-section" data-tab-section>
+                <div class="tabs-area" data-tab-section>
                     <ul class="tab-buttons">
                         <li class="tb-cntnt" data-tab="tab1">
                             <p>SAT Exam Overview</p>
@@ -733,6 +753,9 @@
         </div>
     </section>
     <!-- Tabs with accordion -->
+    <!-- Sticky footer -->
+    <?php include '../components/sticky-footer.php'; ?>
+    <!-- Sticky footer -->
 
     <!-- Footer -->
     <?php include '../components/footer.php'; ?>

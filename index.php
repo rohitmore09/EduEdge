@@ -663,35 +663,35 @@
             <div class="lgcrds">
                 <div class="crd-lgs">
                     <div class="unidv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/counseling.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Customized Profile Building</h3>
                     <p>Structured academic and extracurricular plans, tailored from Grade 8 onwards for global readiness.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/counseling.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>1:1 Ivy League Mentoring</h3>
                     <p>Direct access to mentors from top universities to guide your SOPs, projects, and achievements.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/counseling.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Integrated Test Prep Solutions</h3>
                     <p>Expert coaching for SAT, GRE, GMAT, ACT, and IELTS, powered by Kaplan and BloombergPrep.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/counseling.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Academic & Subject Mastery</h3>
                     <p>Specialized support for AP exams, Olympiads, and advanced certifications to showcase subject excellence.</p>
                 </div>
                 <div class="crd-lgs">
                     <div class="unidv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/unilogo.svg" alt="Icon" width="32" height="32">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/counseling.svg" alt="Icon" width="32" height="32">
                     </div>
                     <h3>Real-Time Progress Tracking</h3>
                     <p>Transparent updates, milestone reviews, and expert-led feedback for continuous academic growth.</p>
