@@ -18,7 +18,7 @@
             <div class="logo">
                 <img src="<?php echo $base_url; ?>assets/imgs/logo/logo.svg" alt="Logo" width="150" height="62">
             </div>
-            <div><a href="#" class="mnactive">SAT PREP</a></div>
+            <div class="crsname"><a href="#" class="mnactive">SAT PREP</a></div>
             <ul class="main_nav">
                 <li><a href="#" class="">Overview</a></li>
                 <li><a href="#">Private Tutoring</a></li>

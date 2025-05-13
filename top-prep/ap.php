@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Prep</title>
+    <title>AP</title>
     <?php include '../style_css.php'; ?>
 </head>
 
@@ -37,7 +37,7 @@
                         </svg>
                     </li>
                     <li>
-                        <a class="active">SAT Prep</a>
+                        <a class="active">AP</a>
                     </li>
                 </ul>
         </div>
@@ -45,8 +45,8 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Boost your Application<br> with a great SAT score!</h1>
-                        <p>We will help you raise your SAT score by atleast 150 points!</p>
+                        <h1>Boost your Application<br> with a great AP score!</h1>
+                        <p>We will help you raise your AP score by atleast 150 points!</p>
                         <a class="white-btn">
                             <span>View Our Courses</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,6 +198,126 @@
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/mentor.svg" alt="Mentor" width="416" height="485">
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="text-center blue_mnhdng">Which AP Exam Are You Taking?</h2>
+            <div class="ap-exams">
+                <!--  -->
+                <div class="examcard">
+                    <div class="examimg">
+                        <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/bio.webp" alt="bio" width="304" height="187">
+                    </div>
+                    <div class="examlnk">
+                    <h3>AP<br>bio</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/chemistry.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP<br>Chemistry</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/physics.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP Physics<br>1-2 | C1-C2</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/eco.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP Microeconomics<br> & Macroeconomics</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/calculus.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP Calculus<br> AB-BC</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/computer-science.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP<br> Computer Science</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                 <div class="examcard">
+                 <div class="examimg">
+                    <img src="<?php echo $base_url;?>assets/imgs/satprep/ap/statistics.webp" alt="" width="304" height="187">
+                 </div>
+                    <div class="examlnk">
+                    <h3>AP<br> Statistics</h3>
+                    <a href="#" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                    </a>
+                    </div>
+                </div>
+                <!--  -->
             </div>
         </div>
     </section>
@@ -612,6 +732,35 @@
     </section>
     <!-- testimonials -->
 
+    <!-- BEST AP PREP -->
+     <section>
+        <div class="container">
+            <div class="ap_prep rflx">
+                <div class="prep_left">
+                    <h2>Recognized as the<br> Best AP Prep</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel tenetur sit nostrum, dolorum inventore dolor officia placeat eos tempora quisquam.</p>
+                </div>
+                <div class="prep_right">
+                    <ul>
+                        <li><img src="<?php echo $base_url;?>assets/imgs/satprep/ap/testprep.svg" alt="Prep Logo" width="120" height="120">
+                    <p>Best Live GRE Classes</p>
+                </li>
+                <li><img src="<?php echo $base_url;?>assets/imgs/satprep/ap/intelligent.svg" alt="Prep Logo" width="234" height="68">
+                    <p>Best Overall GRE Prep Course</p>
+                </li>
+                <li><img src="<?php echo $base_url;?>assets/imgs/satprep/ap/testprep.svg" alt="Prep Logo" width="120" height="120">
+                    <p>#1 Ranked Best GRE Book</p>
+                </li>
+                <li><img src="<?php echo $base_url;?>assets/imgs/satprep/ap/testprep.svg" alt="Prep Logo" width="120" height="120">
+                    <p>Best Value for GRE Tutoring</p>
+                </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- BEST AP PREP -->
+
     <!-- Tabs with accordion -->
     <section>
         <div class="container">
@@ -801,7 +950,7 @@
                 }
             }]
         })
-
+        
          //Prep plans
          $('.prep_plans').slick({
             arrows: true,

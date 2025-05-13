@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Prep</title>
+    <title>PSAT</title>
     <?php include '../style_css.php'; ?>
 </head>
 
@@ -37,7 +37,7 @@
                         </svg>
                     </li>
                     <li>
-                        <a class="active">SAT Prep</a>
+                        <a class="active">PSAT</a>
                     </li>
                 </ul>
         </div>
@@ -207,7 +207,7 @@
             <h2 class="blue_mnhdng text-center">Our Prep Plans to help you ace SAT</h2>
             <div class="prep_plans slick-slider">
                 <!-- Plans -->
-                <div class="plan">
+                <div class="item plan">
                     <small class="plantag">Self-paced</small>
                     <h3>SAT Prep<br> On Demand</h3>
                     <p>We will help you raise your SAT score by at least<span class="grnclr">100 points!</span></p>
@@ -229,7 +229,7 @@
                 </div>
                 <!-- Plans -->
                 <!-- Plans -->
-                <div class="plan">
+                <div class="item plan">
                     <small class="plantag">Online</small>
                     <h3>SAT Prep<br> Live Online</h3>
                     <p>We will help you raise your GMAT score by at least<span class="grnclr">50 points!</span></p>
@@ -253,7 +253,7 @@
                 </div>
                 <!-- Plans -->
                 <!-- Plans -->
-                <div class="plan">
+                <div class="item plan">
                     <small class="plantag">Online</small>
                     <h3>SAT Prep Comprehensive<br> with On Demand integrated</h3>
                     <p>We will help you raise your SAT score by at least <span class="grnclr">200 points!</span></p>
@@ -278,7 +278,7 @@
                 </div>
                 <!-- Plans -->
                 <!-- Plans -->
-                <div class="plan">
+                <div class="item plan">
                     <small class="plantag">Online</small>
                     <h3>SAT Prep<br>
                         1:1 Private Tutoring</h3>
@@ -802,8 +802,8 @@
             }]
         })
 
-         //Prep plans
-         $('.prep_plans').slick({
+        //Prep plans
+        $('.prep_plans').slick({
             arrows: true,
             dots: false,
             infinite: false,

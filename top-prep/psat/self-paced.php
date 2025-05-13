@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Online</title>
+    <title>PSAT Self Paced</title>
     <!-- css -->
-    <?php include '../style_css.php'; ?>
+    <?php include '../../style_css.php'; ?>
     <!-- css -->
 </head>
 
 <body>
     <!-- Header -->
-    <?php include '../components/satprep_header.php'; ?>
+    <?php include '../../components/satprep_header.php'; ?>
     <!-- Header -->
 
     <!-- banner -->
@@ -34,13 +34,19 @@
                         </svg>
                     </li>
                     <li>
-                        <a class="active">Top Prep</a>
+                        <a>Top Prep</a>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                     </li>
                     <li>
-                        <a class="active">SAT Online</a>
+                        <a>PSAT</a>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>
+                        <a class="active">PSAT Self Paced</a>
                     </li>
                 </ul>
         </div>
@@ -63,7 +69,7 @@
                 <div class="bannergt">
                     <div class="stprepform">
                         <!-- form -->
-                        <?php include '../components/forms/satprep_form.php'; ?>
+                        <?php include '../../components/forms/satprep_form.php'; ?>
                         <!-- form -->
                     </div>
                 </div>
@@ -76,7 +82,9 @@
         <div class="container">
             <div class="kplna-card">
                 <div class="crd_kpln">
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
+                <div class="klpn_imgLogo">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
+                    </div>
                     <div class="crd_tl">
                         <h2>kaplan Live<br> Online SAT</h2>
                         <p>Course Features</p>
@@ -100,7 +108,9 @@
                 </div>
                 <!--  -->
                 <div class="crd_kpln">
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
+                <div class="klpn_imgLogo">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
+                    </div>
                     <div class="crd_tl">
                         <h2>Comprehensive Prep<br> with Kaplan Integrated</h2>
                         <p>Course Features</p>
@@ -601,14 +611,14 @@
     <!-- Tabs with accordion -->
 
     <!-- Sticky footer -->
-    <?php include '../components/sticky-footer.php'; ?>
+    <?php include '../../components/sticky-footer.php'; ?>
     <!-- Sticky footer -->
 
     <!-- Footer -->
-    <?php include '../components/footer.php'; ?>
+    <?php include '../../components/footer.php'; ?>
     <!-- Footer -->
     <!-- JS -->
-    <?php include '../style_js.php'; ?>
+    <?php include '../../style_js.php'; ?>
     <script>
         // Handle all accordion groups dynamically
         document.querySelectorAll('[data-accordion]').forEach(accordion => {

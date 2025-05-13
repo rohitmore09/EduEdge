@@ -98,7 +98,7 @@ section{padding: 60px 0px;}
 
 /* header */
 /* ---top-header--- */
-.mnactive{color: var(--primary) !important;font-weight: 700;}
+.mnactive{color: var(--primary) !important;font-weight: 600;}
 .dn{display:none;}
 header{transition: .3s ease-in;position: fixed;width: 100%;z-index: 999;}
 header .logo{width: 140px;}
@@ -447,8 +447,8 @@ footer{background: var(--primary);}
 
 /* breadcrumb */
 .satbanner .breadcrumb{position: absolute;top: 140px;z-index: 1;}
-.satbanner .breadcrumb li {display: flex;gap: 8px;align-items: center;justify-content: center;}
-.satbanner .breadcrumb li svg{width: 5px;stroke: var(--white-color) !important;}
+.satbanner .breadcrumb li {display: flex;gap: 8px;align-items: center;justify-content: center;color: var(--white-color);}
+.satbanner .breadcrumb li svg{width: 5px;position: relative;top: 1px;}
 .satbanner .breadcrumb li a{color: var(--white-color);font-size: 12px;}
 .satbanner .breadcrumb li a.active{border-bottom: 1px solid var(--white-color);color: var(--white-color);}
 
@@ -516,8 +516,8 @@ footer{background: var(--primary);}
 /* Fourth Section */
 
 /* Fifth Section */
-.prep_plans{display: grid;grid-template-columns: repeat(4, 1fr);margin-top: 40px;gap: 20px;}
-.prep_plans .plan{background: var(--white-color);padding: 20px;position: relative;border-radius: 4px;}
+.prep_plans{margin-top: 40px;}
+.prep_plans .plan{background: var(--white-color);padding: 20px;position: relative;border-radius: 4px;width: 95% !important;}
 .prep_plans .plan .plantag{background: var(--primary);color: var(--white-color);padding: 6px 10px;font-size: 11px;border-radius: 100px;}
 .prep_plans .plan h3{margin: 20px 0px;font-size: 18px;color: var(--paragraph);}
 .prep_plans .plan p{margin: 20px 0px;font-size: 15px;color: var(--paragraph);}
@@ -559,7 +559,7 @@ footer{background: var(--primary);}
 .tbs-acrd .accordion{width: 70%;margin:70px auto;}
 .tbs-acrd .accordion .accordion-item{border-bottom: 1px solid #D9D9D9;}
 .tbs-acrd .accordion .accordion-item .accordion-header{position: relative;padding:20px 30px;cursor: pointer;}
-.tbs-acrd .accordion .accordion-item .accordion-header::after{position:absolute;content: '';background: url(../imgs/satprep/icons/plus.svg)no-repeat;background-size: cover;width: 30px;height: 30px;right: 0;transition: .3s all;top: 50%;transform: translate(-50%, -50%);}
+.tbs-acrd .accordion .accordion-item .accordion-header::after{position:absolute;content: '';background: url(../imgs/satprep/icons/plus.svg)no-repeat;background-size: cover;width: 30px;height: 30px;right: 0;transition: .3s all;top: 50%;transform: translateY(-50%);}
 .tbs-acrd .accordion .accordion-item.active .accordion-header::after{transform: translateY(-50%) rotate(45deg);}
 .tbs-acrd .accordion-item .accordion-content{max-height: 0;overflow: hidden;transition: max-height 0.3s ease-out;padding: 0 15px;}
 .tbs-acrd .accordion-item.active .accordion-content{max-height: 500px;transition: max-height 0.5s ease-in;}
@@ -581,7 +581,8 @@ footer{background: var(--primary);}
 /* Section One */
 .kplna-card{display: grid;grid-template-columns:repeat(2, 1fr);gap: 20px;width: 80%;margin:50px auto;}
 .kplna-card .crd_kpln{position: relative;background: var(--white-color);border-radius: 4px;border: 1px solid #bcbcbc;width: 100%;padding: 30px 0;}
-.kplna-card .crd_kpln img{position:absolute;top: -30px;left:50%;transform:translate(-50%);margin: auto;background: var(--white-color);padding: 10px;width: 150px;}
+.kplna-card .crd_kpln .klpn_imgLogo{position:absolute;top: -30px;left:50%;transform:translate(-50%);margin: auto;background: var(--white-color);padding: 10px;width: 150px;}
+.kplna-card .crd_kpln .klpn_imgLogo img{width: 100%;height: auto;}
 .crd_kpln .crd_tl{text-align: center;margin: 20px 0px;border-bottom: 1px solid var(--primary);}
 .crd_kpln .crd_tl h2{color: var(--title);font-size: 30px;}
 .crd_kpln .crd_tl p{color: var(--title);font-size: 15px;margin: 20px 0px;}
@@ -626,14 +627,68 @@ footer{background: var(--primary);}
 .faqsection .accordion{width: 70%;margin:70px auto;}
 .faqsection .accordion .accordion-item{border-bottom: 1px solid #D9D9D9;}
 .faqsection .accordion .accordion-item .accordion-header{position: relative;padding:20px 30px;cursor: pointer;}
-.faqsection .accordion .accordion-item .accordion-header::after{position:absolute;content: '';background: url(../imgs/satprep/icons/plus.svg)no-repeat;background-size: cover;width: 30px;height: 30px;right: 0;transition: .3s all;top: 50%;transform: translate(-50%, -50%);}
+.faqsection .accordion .accordion-item .accordion-header::after{position:absolute;content: '';background: url(../imgs/satprep/icons/plus.svg)no-repeat;background-size: cover;width: 30px;height: 30px;right: 0;transition: .3s all;top: 50%;transform: translateY(-50%);}
 .faqsection .accordion .accordion-item.active .accordion-header::after{transform: translateY(-50%) rotate(45deg);}
 .faqsection .accordion-item .accordion-content{max-height: 0;overflow: hidden;transition: max-height 0.3s ease-out;padding: 0 30px;}
 .faqsection .accordion-item.active .accordion-content{max-height: 500px;transition: max-height 0.5s ease-in;}
 .faqsection .accordion-item .accordion-content .acrd-ans h4{margin:20px 0;font-weight: normal;}
 .faqsection .accordion-item .accordion-content .acrd-ans p{font-size: 15px;}
-
 /* Section Sixth */
+
+/* AP Page */
+.ap-exams {display:flex;justify-content: center;flex-wrap: wrap;gap: 12px;border-top-right-radius: 4px;border-top-left-radius:4px;margin-top: 40px;}
+.ap-exams .examcard{flex-basis: 24%;background: var(--bg-color);will-change: transform;}
+.ap-exams .examcard h3{color: var(--paragraph);font-weight: 600;}
+.ap-exams .examcard .examimg{overflow: hidden;width: 100%;border-top-right-radius: 4px;border-top-left-radius:4px;}
+.ap-exams .examcard img{width: 100%;height: auto;transform: scale(1);transition: .4s;display: block;}
+.ap-exams .examcard:hover img{transform: scale(1.1);}
+.ap-exams .examcard .examlnk{padding: 20px;}
+.ap-exams .examcard .examlnk p{padding-top: 10px;font-size: 15px;}
+.ap-exams .examcard:nth-child(n+5){margin-top: 20px;font-weight: normal;letter-spacing: .5px;}
+.ap-exams .examcard .secondary-btn{font-size: 13px;}
+.ap-exams .examcard svg{width: 6px;}
+
+/* AP Prep */
+.prep_left{width: 40%;}
+.prep_left h2{font-size: 40px;color: var(--title);margin-bottom: 10px;}
+.prep_left p{font-size: 15px;}
+.prep_right{width: 50%;margin-left: auto;}
+.prep_right ul{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;text-align: center;}
+.prep_right li{flex-basis: 50%;margin-bottom: 20px;}
+.prep_right li img{width: auto; height: auto;}
+.prep_right li p{color: var(--black-color);font-size: 15px;width: 150px;margin: auto;}
+/* AP Prep */
+
+/* AP Details Page */
+
+.bio-dfrnc{margin-top: 40px;display: flex;justify-content: space-between;gap:25px;}
+.bio-dfrnc .dfrnc_lft{width: 34%;height: 412px;}
+.bio-dfrnc .dfrnc_rgt{width:63%;margin-right: 0;}
+.dfrnc_lft img{width:100%;height:auto;max-height: 430px;object-fit: cover;}
+.bio-dfrnc .lab_column{position: relative;background: var(--bg-color);display: flex;padding: 50px;margin-bottom: 40px;min-height: 195px;}
+.bio-dfrnc .lab_column::before{position: absolute;content: '';background: var(--primary);height: 70%;width: 4px;left: 30px;top: 30px;}
+.bio-dfrnc .lab_column:last-child{margin-bottom: 0;}
+.bio-dfrnc .lab_column h5{font-size: 20px;width: 40%;}
+.bio-dfrnc .lab_column p{font-size: 15px;width: 50%;}
+
+
+/* Faqs */
+.top_faqs{margin-top: 50px;}
+.top_faqs {display: flex;gap: 20px;flex-wrap: wrap;align-items: stretch;}
+.top_faqs .accordion-item{width:30%;overflow: hidden;}
+.top_faqs .accordion-header{position: relative;cursor: pointer;padding:10px 30px;background: var(--bg-color);height: 90px;display: flex;align-items: center;}
+.top_faqs .accordion-header h4{font-size:18px;letter-spacing: .5px;width: 80%;}
+.top_faqs .accordion-item .accordion-content{max-height: 0;overflow: hidden;transition: max-height 0.3s ease-out;background-color: #fff;padding: 0 15px;}
+.top_faqs .accordion-item.active .accordion-content{max-height: 500px;transition: max-height 0.5s ease-in;}
+.top_faqs .accordion-item .accordion-header::after{position: absolute;content: '';background: url(../imgs/satprep/icons/downicon.svg)no-repeat;background-size: cover;width: 30px;height: 30px;transition:all .3s;right: 5%;top: 50%;transform: translateY(-50%);}
+.top_faqs .accordion-item.active .accordion-header::after{transform:translateY(-50%) rotate(180deg);}
+
+/* Faqs */
+
+/* AP Details Page */
+
+
+/* AP Page */
 
 /* SAT ONLINE */
 
@@ -778,13 +833,14 @@ footer{padding-bottom: 100px;}
 .testimonial-slider .item .testimonialcard{width: 90%;margin: auto;}
 .testimonial-slider button{right:10px;bottom: -38px;}
 .testimonial-slider .slick-prev{right:65px;}
+.testimonial-slider .item::before{background-size: cover;width: 60px;height: 60px;top: -5px;}
 /* testimonial-sec */
 
 
 /* --eight-sec */
 .globaluni::before{width: 130px;height: 27px;top: -54px;right: -37px;}
 .tp_univer br{display: none;}
-.lgcrds .crd-lgs{margin: 10px;flex: 50%;min-height: auto;}
+.lgcrds .crd-lgs{margin:10px 5px;flex:47%;min-height: 260px;padding: 10px;}
 /* --eight-sec */
 
 /* ---ninth-sec */
@@ -821,6 +877,7 @@ footer{padding-bottom: 100px;}
 /* CONTACT */
 
 /* SAT PREP */
+.crsname{flex: 1;margin-left: 10px;}
 .satbanner .breadcrumb{top: 100px;}
 .satflx{flex-direction: column;}
 .bannerimg{height: auto;}
@@ -828,13 +885,12 @@ footer{padding-bottom: 100px;}
 .satflx .bannerlft .baner-dtls{top: 25%;}
 .satflx .baner-dtls h1{font-size: 30px;}
 .satflx .bannergt{position: inherit;width: 100%;}
-.satflx .bannergt .stprepform form{background:#000;}
+.satflx .bannergt .stprepform form{background:#000;width: 100%;}
 .baner_botom{position: inherit;margin-top: 20px;}
 .baner_botom p{font-size: 15px;}
 
 /* Section two */
-.edlsit{grid-template-columns:1fr;padding: 0;}
-.edlsit .edlst_elem{width: 100%;margin: 20px 0px;}
+.edlsit .edlst_elem{width: 45%;margin: 20px 9px;padding: 60px 10px 30px;}
 /* Section two */
 
 /* Section Three */
@@ -845,14 +901,16 @@ footer{padding-bottom: 100px;}
 /* Section Three */
 
 /* Section four */
-.mntrship.rflx{flex-direction: column;}
+.mntrship.rflx{flex-direction: column;padding: 0 20px;}
 .mntrship .mntrdtl, .mntrship .mntrrgt{width: 100%;}
-.mntrship .mntrdtl::before{top: -24px;left: -6px;}
+.mntrship .mntrdtl::before{top: -2px;left: -19px;width: 20px;height: 20px;}
 .mntrship .mentormg{width: 100%;margin-top: 30px;}
 /* Section four */
 
 /* Section five */
-.prep_plans{grid-template-columns:1fr;}
+.prep_plans button{position: absolute;right: 30px;bottom: -60px;font-size: 0;width: 40px;height: 40px;background: url('../imgs/logo/slider-icon.svg')no-repeat;border: none;background-size: cover;cursor: pointer;}
+.prep_plans .slick-next{background: url(../imgs//logo/slider-icon.svg)no-repeat;background-size: cover;transform: rotate(-180deg);}
+.prep_plans .slick-prev{right: 80px;}
 /* Section five */
 
 /* Section six */
@@ -874,8 +932,9 @@ footer{padding-bottom: 100px;}
 .tbs-acrd .tab-buttons .tb-cntnt{width: 100%;}
 .tbs-acrd .accordion{width: 100%;}
 .tbs-acrd .accordion .accordion-item .accordion-header{width: 100%;padding: 10px;}
-.tbs-acrd .accordion .accordion-item .accordion-header h3{width: 80%;}
-.prsnlz{grid-template-columns:1fr}
+.tbs-acrd .accordion .accordion-item .accordion-header h3{width: 80%;font-weight: 500;font-size: 16px;}
+.prsnlz{grid-template-columns:repeat(2,1fr);}
+.prsnlz .prsnlz_dv{padding: 20px 15px;}
 /* Section Eight */
 /* SAT PREP */
 
@@ -899,6 +958,7 @@ footer{padding-bottom: 100px;}
 .price_tabel .right_txt{width: 100%;overflow: auto;}
 .price_tabel .mnprc{margin-top: 56px;}
 .price_tabel .mnprc p{height: 100.7px;padding: 0 10px;}
+.price_tabel .mnprc .actprl p{flex-direction: column;}
 /* Section fifth */
 
 /* Section Ninth */
@@ -907,9 +967,37 @@ footer{padding-bottom: 100px;}
 .faqsection .accordion .accordion-item .accordion-header{padding: 20px 10px;}
 /* Section Ninth */
 
+/* Exam */
+.ap-exams{justify-content: flex-start;}
+.ap-exams .examcard{flex-basis: 48%;}
+.ap-exams .examcard h3{font-size: 16px;}
+.ap-exams .examcard:nth-child(n+5){margin-top:auto;}
+/* Exam */
+
+
+/* AP Prep */
+.ap_prep{flex-direction: column;}
+.ap_prep .prep_left,
+.ap_prep .prep_right{width: 100%;}
+.ap_prep .prep_right{margin-top: 20px;}
+/* AP Prep */
+
+/* AP Details */
+.bio-dfrnc{flex-direction: column;}
+.bio-dfrnc .dfrnc_lft, .bio-dfrnc .dfrnc_rgt{width: 100%;}
+.bio-dfrnc .lab_column{justify-content: space-between;padding: 20px;margin-bottom: 10px;}
+.bio-dfrnc .lab_column::before{top:23px;left: 8px;}
+.top_faqs .accordion-header{padding: 10px;}
+.top_faqs .accordion-item{width: 100%;}
+.top_faqs .accordion-item .accordion-header::after{width: 20px;height: 20px;}
+/* AP Details */
+
 
 /* SAT ONLINE */
+}
 
+@media (max-width:480px){
+  .edlsit .edlst_elem{width: 44%;margin: 20px 10px;}
 }
 
 /* Responsive */

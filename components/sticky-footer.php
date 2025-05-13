@@ -5,7 +5,7 @@
                 <li>
                     <a href="#">
                         <img src="<?php echo $base_url;?>assets/imgs/logo/stkftr.svg" alt="Logo" width="40" height="40">
-                        <p>Test Prep</p>
+                        <p>Test<br> Prep</p>
                     </a>
                 </li>
                 <li>

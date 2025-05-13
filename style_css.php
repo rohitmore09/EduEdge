@@ -1,6 +1,6 @@
-<?php 
-$base_url="http://localhost/www/eduedge/Eduedge/";
-?>
+<?php
+ $base_url="http://localhost/www/eduedge/Eduedge/";
+ ?>
 
 <!-- CSS -->
  <link rel="stylesheet" href="<?php echo $base_url;?>assets/css/flaticon.css" />

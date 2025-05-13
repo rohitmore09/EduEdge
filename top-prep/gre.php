@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Prep</title>
+    <title>GRE</title>
     <?php include '../style_css.php'; ?>
 </head>
 
@@ -37,7 +37,7 @@
                         </svg>
                     </li>
                     <li>
-                        <a class="active">SAT Prep</a>
+                        <a class="active">GRE</a>
                     </li>
                 </ul>
         </div>
