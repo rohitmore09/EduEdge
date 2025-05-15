@@ -15,11 +15,17 @@
 
     <!-- banner -->
     <div class="satbanner">
+        <div class="prp-banner">
         <picture>
             <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg">
             <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satmb.jpg">
             <img src="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg" alt="Banner" class="bannerimg" width="1440" height="768">
         </picture>
+        <div class="baner_botom">
+                <p>Powered by Proven Kaplan Pedagogy</p>
+                <p>Mentorship by Ivy-League Experts</p>
+            </div>
+        </div>
         <div class="container">
             <!-- breadcrumb -->
         <div class="breadcrumb">
@@ -64,10 +70,6 @@
                         <!-- form -->
                     </div>
                 </div>
-            </div>
-            <div class="baner_botom">
-                <p>Powered by Proven Kaplan Pedagogy</p>
-                <p>Mentorship by Ivy-League Experts</p>
             </div>
         </div>
     </div>

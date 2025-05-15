@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Online</title>
+    <title>SAT Self Paced</title>
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->
@@ -46,7 +46,7 @@
                         </svg>
                     </li>
                     <li>
-                        <a class="active">SAT Online</a>
+                        <a class="active">SAT Self Paced</a>
                     </li>
                 </ul>
         </div>
@@ -54,8 +54,8 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Master the SAT with<br> Live Online Coaching</h1>
-                        <p>99th percentile tutors. Strategy-driven sessions. Global access.</p>
+                        <h1>Study at Your Pace,<br> Ace the SAT</h1>
+                        <p>180+ hours of expert content, anytime you want</p>
                         <a class="white-btn">
                             <span>Explore Our Programs</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,17 +86,16 @@
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
                     <div class="crd_tl">
-                        <h2>Kaplan Live<br> Online SAT</h2>
+                        <h2>Kaplan on-demand SAT</h2>
                         <p>Course Features</p>
                     </div>
                     <div class="crd-points">
                         <ul>
-                            <li>18 hours of immersive live instruction</li>
-                            <li>Learn from 99th-percentile-scoring SAT teachers</li>
-                            <li>2+ teachers per class</li>
-                            <li>4 realistic SAT practice tests</li>
-                            <li>Comprehensive QBank of 500+ SAT questions</li>
-                            <li>Includes a digital performance dashboard</li>
+                            <li>Kaplan “On Demand” SAT Prep Course</li>
+                            <li>180+ hours of online instruction & practice</li>
+                            <li>Access to Kaplan Live SAT Channel</li>
+                            <li>3 full-length SAT mock tests</li>
+                            <li>Essential test-taking strategies </li>
                         </ul>
                     </div>
                     <a href="#" class="secondary-btn">
@@ -107,7 +106,7 @@
                     </a>
                 </div>
                 <!--  -->
-                <div class="crd_kpln">
+                <!-- <div class="crd_kpln">
                 <div class="klpn_imgLogo">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
@@ -132,7 +131,7 @@
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -161,7 +160,7 @@
                     </div>
                     <h3>Learn from the<br> Best Tutors</h3>
                     <ul>
-                        <li>99+ percentile Tutors</li>
+                        <li>99+ Percentile Scorers</li>
                         <li>Ivy League Alumni Trainers</li>
                         <li>Expert Faculty Across Domains</li>
                     </ul>
@@ -562,11 +561,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What is included in the SAT Live Online Prep course?</h3>
+                            <h3>What does the Self-Paced SAT Prep Plan include?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>The Live Online Prep course includes 18 hours of live instruction led by 99th-percentile SAT scorers, 2+ expert teachers per class, access to 500+ practice questions via a QBank, 4 full-length adaptive digital SAT practice tests, on-demand video lessons, and a personalized digital performance dashboard.</p>
+                                <p>The self-paced plan includes Kaplan’s “On Demand” SAT Prep Course with 180+ hours of online instruction and practice, 3 full-length SAT mock tests, access to the Kaplan Live SAT Channel, and expert-developed test-taking strategies.</p>
                             </div>
                         </div>
                     </div>
@@ -574,11 +573,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Who teaches the Live Online Prep classes?</h3>
+                            <h3>Who is the Self-Paced plan best suited for?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>All classes are led by experienced instructors who have scored in the 99th percentile on the SAT. Each session is taught by a team of 2 or more expert teachers to offer a more dynamic, interactive, and supportive learning experience.</p>
+                                <p>This plan is ideal for self-motivated students who prefer flexible study schedules and want access to high-quality learning materials without live class commitments.</p>
                             </div>
                         </div>
                     </div>
@@ -586,11 +585,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How are the Live Online classes structured?</h3>
+                            <h3>How long will I have access to the course?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>The course offers 18 hours of live instruction delivered across multiple sessions. Lessons are interactive, strategy-focused, and supported by real-time doubt-solving, practice drills, and performance tracking.</p>
+                                <p>You get access to all course materials for up to 6 to 12 months, depending on your enrollment option.</p>
                             </div>
                         </div>
                     </div>
@@ -598,11 +597,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What if I miss a live session?</h3>
+                            <h3>Are full-length SAT practice tests included?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>Don’t worry—every live session is recorded and made available to you. You can access the recordings anytime through your student dashboard to review at your own pace.</p>
+                                <p>Yes, the self-paced plan includes 3 full-length SAT mock tests designed to simulate the digital exam experience.</p>
                             </div>
                         </div>
                     </div>
@@ -610,11 +609,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How do the practice tests work in the online course?</h3>
+                            <h3>Can I access the content on mobile devices?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>You get 4 full-length adaptive digital SAT mock tests. These tests simulate the real SAT experience, help you build familiarity with the digital format, and provide detailed performance analysis to improve your score.</p>
+                                <p>Yes, all course materials and practice content can be accessed on your desktop, tablet, or mobile device, making it easy to study anytime, anywhere.</p>
                             </div>
                         </div>
                     </div>
@@ -622,11 +621,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Can I access the course content after the live classes end?</h3>
+                            <h3>Is the Kaplan Live SAT Channel included in this plan?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>Yes. In addition to live sessions, you get access to a library of on-demand lessons and resources that remain available to you throughout your course duration.</p>
+                                <p>Yes! With this plan, you also get access to Kaplan’s Live SAT Channel, where you can join expert-led live sessions on key topics.</p>
                             </div>
                         </div>
                     </div>
@@ -634,11 +633,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Is the Live Online Prep suitable for international students?</h3>
+                            <h3>Can I upgrade to a live or tutoring plan later?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>Yes! The entire course is delivered online and accessible globally. The instructors, resources, and testing tools are aligned with the official SAT format, making it ideal for students applying to international universities.</p>
+                                <p>Absolutely. You can switch to the Live Online or Private Tutoring plans anytime by paying the price difference.</p>
                             </div>
                         </div>
                     </div>
@@ -646,11 +645,11 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How do I enroll in the SAT Live Online Prep course?</h3>
+                            <h3>Is there a free trial or preview available?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <p>You can enroll directly through our website or contact our support team for personalized guidance. We also offer free sample lessons to help you explore the course before committing.</p>
+                                <p>Yes, we offer free sample lessons and practice content so you can explore the platform before enrolling.</p>
                             </div>
                         </div>
                     </div>
