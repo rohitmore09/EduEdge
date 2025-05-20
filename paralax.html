@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parallax About Banner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GSAP & ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+
+    .abtbaner {
+      position: relative;
+      height: 480px;
+      overflow: hidden;
+    }
+
+    .abtbanr_img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 120%; /* Allows for vertical scroll movement */
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .spacer {
+      height: 100vh;
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Parallax Banner -->
+  <div class="abtbaner">
+    <img src="assets/imgs/about/aboutbaner.webp" class="abtbanr_img" alt="About banner" width="1312" height="480">
+  </div>
+
+  <!-- Spacer for scrolling -->
+  <div class="spacer">
+    Scroll down...
+  </div>
+
+  <!-- GSAP Parallax Script -->
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".abtbanr_img", {
+      y: "-20%",
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".abtbaner",
+        start: "top top",
+        end: "bottom top",
+        scrub: true
+      }
+    });
+  </script>
+
+</body>
+</html>

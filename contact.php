@@ -24,7 +24,7 @@
                 <img src="<?php echo $base_url;?>assets/imgs/logo/righticon_green.svg" alt="Icon" class="spcbtwn">
             </li>
             <li>
-                <a class="active">Contact Us</a>
+                <a>Contact Us</a>
             </li>
         </ul>
         </div>

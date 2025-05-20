@@ -3,7 +3,7 @@
     <div class="top_header">
         <div class="container">
         <ul class="top_nav">
-            <li><a href="<?php echo $base_url; ?>">Home</a></li>
+            <li><i class="fas fa-home"></i><a href="<?php echo $base_url; ?>">Home</a></li>
             <li><a href="#">News & Events</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">For Upskilling</a></li>
@@ -20,13 +20,13 @@
             </div>
             <div class="crsname"><a href="#" class="mnactive">SAT PREP</a></div>
             <ul class="main_nav">
-                <li><a href="#" class="">Overview</a></li>
-                <li><a href="#">Private Tutoring</a></li>
-                <li><a href="#">Online/Offline Classes</a></li>
-                <li><a href="#">Self Placed</a></li>
+                <li><a href="<?php echo $base_url;?>top-prep/sat-prep.php" class="">Overview</a></li>
+                <li><a href="<?php echo $base_url;?>top-prep/sat/private-tutoring.php" class="pt_active">Private Tutoring</a></li>
+                <li><a href="<?php echo $base_url;?>top-prep/sat/sat-online.php" class="cls_active">Online/Offline Classes</a></li>
+                <li><a href="<?php echo $base_url;?>top-prep/sat/self-placed.php" class="sp_active">Self Placed</a></li>
                 <li><a href="#">SAT Prep Resources</a></li>
                 <li class="srchicon"><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/search.svg" alt="search-icon" width="24" height="24"></a></li>
-                <li class="dn"><a href="<?php echo $base_url; ?>">Home</a></li>
+                <li class="dn"><i class="fas fa-home"></i><a href="<?php echo $base_url; ?>">Home</a></li>
                 <li class="dn"><a href="#">News & Events</a></li>
                 <li class="dn"><a href="#">Contact</a></li>
                 <li class="dn"><a href="#">For Upskilling</a></li>

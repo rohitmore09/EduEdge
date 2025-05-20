@@ -1,5 +1,5 @@
 <?php
- $base_url="https://www.agency09.co/staging/Eduedge/";
+ $base_url="http://localhost/www/eduedge/html/";
  ?>
 
 <!-- CSS -->

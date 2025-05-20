@@ -199,7 +199,7 @@
                 <div class="mntrdtl">
                     <p>At EduEdge, we believe that every student has the potential to achieve top scores with the right guidance. Our mentorship-driven approach combines expert strategies, personalized learning, and constant support to help you excel. We don’t just prepare you for tests — we prepare you for success.</p>
                     <div class="mntnm">
-                        <h3>Prof. Harjeet Singh</h3>
+                        <h3>Professor. Harjeet A Singh</h3>
                         <p>Founder & CEO |<br>
                             CFA, FRM, CAIA, PRM, CMT |<br>
                             Stanford University Alumnus |<br>

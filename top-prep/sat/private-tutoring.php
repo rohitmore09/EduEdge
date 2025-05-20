@@ -8,6 +8,9 @@
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->
+     <style>
+        .pt_active{color: var(--title);font-weight: bold;}
+     </style>
 </head>
 
 <body>
@@ -106,6 +109,10 @@
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                     </a>
+                </div>
+                <!--  -->
+                <div class="kpln_dtlimg">
+                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
                 </div>
                 <!--  -->
                 <!-- <div class="crd_kpln">

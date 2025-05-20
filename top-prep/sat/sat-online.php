@@ -8,6 +8,9 @@
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->
+     <style>
+        .cls_active{color: var(--title);font-weight: bold;}
+     </style>
 </head>
 
 <body>
