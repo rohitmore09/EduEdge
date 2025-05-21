@@ -17,7 +17,9 @@
         <div class="main_header">
             <div class="logo">
                 <div class="hdr_logo">
-                    <img src="<?php echo $base_url; ?>assets/imgs/logo/logo.svg" alt="Logo" width="150" height="62">
+                    <a href="<?php echo $base_url;?>">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/logo.svg" alt="Logo" width="150" height="62">
+                    </a>
                 </div>
                 <h2 class="crsname">AP PREP</h2>
             </div>

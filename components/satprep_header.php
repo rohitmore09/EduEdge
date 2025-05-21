@@ -16,7 +16,9 @@
     <div class="container">
         <div class="main_header">
             <div class="logo">
-                <img src="<?php echo $base_url; ?>assets/imgs/logo/logo.svg" alt="Logo" width="150" height="62">
+                <a href="<?php echo $base_url;?>">
+                    <img src="<?php echo $base_url; ?>assets/imgs/logo/logo.svg" alt="Logo" width="150" height="62">
+                </a>
             </div>
             <div class="crsname"><a href="#" class="mnactive">SAT PREP</a></div>
             <ul class="main_nav">

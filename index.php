@@ -36,10 +36,10 @@
                             </ul>
                             <div class="slider_btn">
                                 <a href="#" class="white-btn"><span>Start Your Test Prep</span>
-                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                            </a>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -61,10 +61,10 @@
                             </ul>
                             <div class="slider_btn">
                                 <a href="#" class="white-btn"><span>Explore Study Abroad Services</span>
-                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                            </a>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -86,10 +86,10 @@
                             </ul>
                             <div class="slider_btn">
                                 <a href="#" class="white-btn"><span>Strengthen Your Profile</span>
-                                <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                            </a>
+                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="six_btn">
                     <a href="#">
-                        <h4>Test Prep</h4>
+                        <h4>Top Prep</h4>
                         <p>Ace the SAT, GRE, GMAT, IELTS, AP & more</p>
                     </a>
                     <a href="#">
@@ -142,7 +142,7 @@
                         <h4>Meet Our Instructors </h4>
                         <p>Learn from Ivy League alumni, experts & top scorers </p>
                     </a>
-                    <a href="#">
+                    <a href="<?php echo $base_url; ?>about-us.php">
                         <h4>About EduEdge Pro</h4>
                         <p>Explore our story, vision & impact in education</p>
                     </a>
@@ -159,11 +159,11 @@
                 <div class="mntr-img">
                     <div class="imgbtn">
                         <img src="<?php echo $base_url; ?>assets/imgs/people/mentor.jpg" class="mntrimg" alt="Mentor Image" width="500" height="485">
-                        <a href="#" class="secondary-btn">
+                        <a href="<?php echo $base_url; ?>about-us.php" class="secondary-btn">
                             <span>Meet Your Mentor</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
+                                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -260,14 +260,30 @@
                             </svg>
                             <p>Trending</p>
                         </li>
-                        <li class="tb-cntnt" data-tab="tab2"><p>SAT</p></li>
-                        <li class="tb-cntnt" data-tab="tab3"><p>GRE</p></li>
-                        <li class="tb-cntnt" data-tab="tab4"><p>GMAT</p></li>
-                        <li class="tb-cntnt" data-tab="tab5"><p>PSAT</p></li>
-                        <li class="tb-cntnt" data-tab="tab6"><p>AP</p></li>
-                        <li class="tb-cntnt" data-tab="tab7"><p>ACT</p></li>
-                        <li class="tb-cntnt" data-tab="tab8"><p>IELTS</p></li>
-                        <li class="tb-cntnt" data-tab="tab9"><p>TOEFL</p></li>
+                        <li class="tb-cntnt" data-tab="tab2">
+                            <p>SAT</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab3">
+                            <p>GRE</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab4">
+                            <p>GMAT</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab5">
+                            <p>PSAT</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab6">
+                            <p>AP</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab7">
+                            <p>ACT</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab8">
+                            <p>IELTS</p>
+                        </li>
+                        <li class="tb-cntnt" data-tab="tab9">
+                            <p>TOEFL</p>
+                        </li>
                     </ul>
                     <!-- tabs content -->
                     <div class="tbs active" id="tab1">
@@ -294,10 +310,10 @@
                                 </div>
                                 <div class="crdbtn">
                                     <a href="#" class="secondary-btn"><span>Learn More</span>
-                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                                </a>
+                                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <!-- item -->
@@ -322,10 +338,10 @@
                                 </div>
                                 <div class="crdbtn">
                                     <a href="#" class="secondary-btn"><span>Learn More</span>
-                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                                </a>
+                                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <!-- item -->
@@ -350,33 +366,33 @@
                                 </div>
                                 <div class="crdbtn">
                                     <a href="#" class="secondary-btn"><span>Learn More</span>
-                                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                                </a>
+                                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tbs" id="tab2">1</div>
-                    <div class="tbs" id="tab3">2</div>
-                    <div class="tbs" id="tab4">3</div>
-                    <div class="tbs" id="tab5">4</div>
-                    <div class="tbs" id="tab6">5</div>
-                    <div class="tbs" id="tab7">6</div>
-                    <div class="tbs" id="tab8">7</div>
-                    <div class="tbs" id="tab9">8</div>
+                    <div class="tbs" id="tab2"></div>
+                    <div class="tbs" id="tab3"></div>
+                    <div class="tbs" id="tab4"></div>
+                    <div class="tbs" id="tab5"></div>
+                    <div class="tbs" id="tab6"></div>
+                    <div class="tbs" id="tab7"></div>
+                    <div class="tbs" id="tab8"></div>
+                    <div class="tbs" id="tab9"></div>
                     <!-- tabs content -->
                 </div>
                 <!-- see all -->
-                <div class="seeall">
+                <!-- <div class="seeall">
                     <a href="#" class="secondary-btn">
                         <span>View All Programs</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                     </a>
-                </div>
+                </div> -->
                 <!-- see all -->
             </div>
         </div>
@@ -395,12 +411,12 @@
                             <h3 class="rgtln">Counselling</h3>
                         </div>
                         <p>Expert-driven guidance to choose the right course, country, and university for your future goals.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -412,12 +428,12 @@
                             <h3 class="rgtln">Developing<br>Application</h3>
                         </div>
                         <p>Build compelling applications that bring your strengths, experiences, and aspirations to life.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -429,12 +445,12 @@
                             <h3 class="rgtln">Review<br>Application</h3>
                         </div>
                         <p>Perfect your submissions with in-depth expert feedback, ensuring every detail maximizes impact.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -446,12 +462,12 @@
                             <h3 class="rgtln">Profile<br>Building</h3>
                         </div>
                         <p>Strategically strengthen your academic and extracurricular profile to match top university expectations.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -463,12 +479,12 @@
                             <h3 class="rgtln">Interview<br>Prep</h3>
                         </div>
                         <p>Get ready to ace admissions interviews with personalized coaching and simulated practice sessions.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -480,12 +496,12 @@
                             <h3 class="rgtln">Post Application<br>Support</h3>
                         </div>
                         <p>Navigate waitlists, visa processes, and pre-departure steps with complete confidence.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- card -->
@@ -497,23 +513,25 @@
                             <h3 class="rgtln">Pre-University<br>Training</h3>
                         </div>
                         <p>Gain essential academic skills and a winning mindset before stepping onto a global campus.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Explore</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
-            <div class="seeall">
+            <!-- see all -->
+            <!-- <div class="seeall">
                 <a href="#" class="secondary-btn">
                     <span>Explore All Services</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                 </a>
-            </div>
+            </div> -->
+            <!-- see all -->
         </div>
     </section>
 
@@ -553,14 +571,14 @@
                     </div>
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a href="#" class="secondary-btn">
                     <span>Start Building Your Profile</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -642,14 +660,14 @@
                     </div>
                 </div>
             </div>
-            <div class="seeall text-center">
+            <!-- <div class="seeall text-center">
                 <a href="#" class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Testimonial -->
@@ -706,7 +724,7 @@
                 <div class="infrast">
                     <h2 class="blue_mnhdng">Built for Learning, Designed for Results</h2>
                     <p>Modern, tech-enabled spaces that put student success at the center.</p>
-                    <a href="#" class="primary__btn">
+                    <a href="<?php echo $base_url; ?>contact.php" class="primary__btn">
                         <span>Get a free consultation</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
@@ -720,7 +738,7 @@
         </div>
     </section>
 
-    <section class="blog_sec">
+    <!-- <section class="blog_sec">
         <div class="container">
             <h2 class="blue_mnhdng text-center">Insights That Matter</h2>
             <div class="all_blogs">
@@ -776,7 +794,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="ptrdsec">
         <div class="container">
@@ -786,7 +804,7 @@
                 </div>
                 <div class="infrast">
                     <h2 class="blue_mnhdng">Take the First Step Toward World-Class Education</h2>
-                    <a href="#" class="secondary-btn">
+                    <a href="<?php echo $base_url; ?>contact.php" class="secondary-btn">
                         <span>Schedule a free consultation</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
@@ -804,20 +822,20 @@
         <div class="strip">
             <span>Test Prep</span>
             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
+                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+            </svg>
         </div>
         <div class="strip">
             <span>Study Abroad</span>
             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
+                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+            </svg>
         </div>
         <div class="strip">
             <span>Sucess Story</span>
             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
+                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+            </svg>
         </div>
     </div>
     <!-- footerstrip -->
