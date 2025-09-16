@@ -1,0 +1,27 @@
+RewriteEngine On
+
+# Route /news to news/news-frontend.php
+RewriteRule ^news/?$ news/news-frontend.php [L]
+
+# Route /news/some-slug to news/news-detail.php?slug=some-slug
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^news/([^/]+)/?$ news/news-detail.php?slug=$1 [L,QSA]
+
+# Disable folder listing (prevent directory browsing)
+Options -Indexes
+
+
+# Redirect non-www to www and force HTTPS
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^eduedgepro\.com$ [NC]
+RewriteRule ^(.*)$ https://www.eduedgepro.com/$1 [L,R=301]
+
+
+
+Redirect 301 /about             https://www.eduedgepro.com/about-us.php
+Redirect 301 /testprep          https://www.eduedgepro.com
+Redirect 301 /studyabroad       https://www.eduedgepro.com
+Redirect 301 /mentoring         https://www.eduedgepro.com
+Redirect 301 /certifiedcourses         https://www.eduedgepro.com
+Redirect 301 /appointment           https://www.eduedgepro.com

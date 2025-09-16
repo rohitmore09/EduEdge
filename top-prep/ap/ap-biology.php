@@ -4,7 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Biology</title>
+    <title>AP Biology | EduEdge Pro</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AP Biology | EduEdge Pro">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+    <meta property="og:url" content="https://eduedgepro.com/top-prep/ap/ap-biology.php">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AP Biology | EduEdge Pro">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <?php include '../../style_css.php'; ?>
 </head>
 
@@ -17,11 +28,11 @@
     <div class="satbanner">
         <div class="prp-banner">
         <picture>
-            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg">
-            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satmb.jpg">
-            <img src="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg" alt="Banner" class="bannerimg" width="1440" height="768">
+            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/bio.webp">
+            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/bio-mb.webp">
+            <img src="<?php echo $base_url; ?>assets/imgs/top-prep/ap/bio.webp" alt="Banner" class="bannerimg" width="1440" height="768">
         </picture>
-        <div class="baner_botom">
+        <div class="baner_botom white_clr">
                 <p>Powered by Proven Kaplan Pedagogy</p>
                 <p>Mentorship by Ivy-League Experts</p>
             </div>
@@ -57,16 +68,16 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Boost your Application<br> with a great AP score!</h1>
-                        <p>We will help you raise your AP score by atleast 150 points!</p>
-                        <a class="white-btn">
+                        <h1>Boost Your AP Bio<br> Score and Stand Out</h1>
+                        <p>Improve your score by 2 points or more with expert-led classes, strategy, and personalized prep.</p>
+                        <a class="white-btn" href="#programs">
                             <span>View Our Courses</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
                         </a>
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/truspilot.svg" alt="Trust Pilot" width="281" height="40">
-                        <small>Based on <span class="underline">5,931 reviews</span></small>
+                        <a class="revlnk" href="https://www.trustpilot.com/review/kaptest.com?utm_medium=trustbox&utm_source=Carousel" target="_blank">Based on <span class="underline">5,931 reviews</span></a>
                     </div>
                 </div>
                 <div class="bannergt">
@@ -82,7 +93,100 @@
     </div>
     <!-- banner -->
 
-    <section class="greysec">
+     <section class="greysec" id="programs">
+        <div class="container">
+            <!-- <h2 class="blue_mnhdng text-center">Prep Your Way to Top SAT Scores</h2> -->
+            <div class="prep_plans slick-slider" data-aos="fade-up">
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>AP Prep – 1:1 Private Tutoring with Kaplan integrated</h3>
+                    <!-- <p>SAT Prep On Demand<br>Raise your SAT score by at least <span class="grnclr">100 points!</span> — on your schedule.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 5</li>
+                            <li>Live Offline / Online</li>
+                            <li>160+ hours of 1:1 private tutoring</li>
+                            <li>Kaplan On Demand access</li>
+                            <li>6 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <!-- <p class="satprice">From:<strong> INR 20,000</strong> plus GST</p> -->
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">Classroom / Live Online</small>
+                    <h3>AP Prep – Comprehensive Live with Kaplan integrated</h3>
+                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 4–5</li>
+                            <li>Live Offline / Online</li>
+                            <li>120+ hours of group training</li>
+                            <li>Kaplan Live Online access</li>
+                            <li>20 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <!-- <p class="satprice">From:<strong> INR 65,000</strong> plus GST</p> -->
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">Online</small>
+                    <h3>Kaplan AP Prep – Live Online</h3>
+                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 3–4</li>
+                            <li>Self-paced with Kaplan On Demand</li>
+                            <li>Kaplan On Demand access</li>
+                            <li>12 full-length mock tests</li>
+                            <li>1-hour weekly doubt clearing slot</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <!-- <p class="satprice">From:<strong> INR 110,000</strong> plus GST</p> -->
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+               
+            <!-- <div class="seeall">
+                <a href="#" class="secondary-btn">
+                    <span>View All</span>
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <section class="greysec">
         <div class="container">
             <div class="kplna-card">
                 <div class="crd_kpln">
@@ -90,17 +194,19 @@
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
                     <div class="crd_tl">
-                        <h2>kaplan Live<br> Online SAT</h2>
+                        <h2>AP Prep – 1:1 Private Tutoring<br> with Kaplan integrated</h2>
                         <p>Course Features</p>
                     </div>
                     <div class="crd-points">
                         <ul>
-                            <li>18 hours of immersive live instruction</li>
-                            <li>Learn from 99th-percentile-scoring SAT teachers</li>
-                            <li>2+ teachers per class</li>
-                            <li>4 realistic SAT practice tests</li>
-                            <li>Comprehensive QBank of 500+ SAT questions</li>
-                            <li>Includes a digital performance dashboard</li>
+                            <li>Target Score Range: 5</li>
+                            <li>Live Offline / Online</li>
+                            <li>160+ hours of 1:1 private tutoring</li>
+                            <li>Kaplan On Demand access</li>
+                            <li>6 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
                         </ul>
                     </div>
                     <a href="#" class="secondary-btn">
@@ -110,18 +216,41 @@
                         </svg>
                     </a>
                 </div>
-                <!--  -->
-                <div class="kpln_dtlimg">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
+                <div class="crd_kpln">
+                    <div class="klpn_imgLogo">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
+                    </div>
+                    <div class="crd_tl">
+                        <h2>AP Prep – Comprehensive Live<br> with Kaplan integrated</h2>
+                        <p>Course Features</p>
+                    </div>
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 4-5</li>
+                            <li>Live Offline / Online</li>
+                            <li>120+ hours of group training</li>
+                            <li>Kaplan Live Online access</li>
+                            <li>20 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="secondary-btn">
+                        <span>Buy Now</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Where AP Bio Makes a Difference</h2>
-            <div class="bio-dfrnc">
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Where AP Bio Makes a Difference</h2>
+            <div class="bio-dfrnc" data-aos="fade-up">
                 <div class="dfrnc_lft">
                     <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/biology/bio-lab.webp" alt="Bio Lab Images" width="528" height="544">
                 </div>
@@ -141,15 +270,21 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Master these areas and topic</h2>
-            <div class="top_faqs" data-accordion>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Master these areas and topic</h2>
+            <div class="top_faqs" data-accordion data-aos="fade-up">
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>Cellular<br> Energetics</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                       <div class="acrd-ans">
+                        <ul>
+                            <li>Photosynthesis.</li>
+                            <li>Cellular respiration.</li>
+                            <li>Enzymes</li>
+                        </ul>
+                       </div>
                     </div>
                 </div>
                 <!--  -->
@@ -159,18 +294,47 @@
                         <h4>Cell Structure and<br> Function</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Organelles.</li>
+                                <li>Transport.</li>
+                                <li>Cell membranes</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cellular<br> Energetics</h4>
+                        <h4>Chemistry of Life</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Structure of water.</li>
+                                <li>Macromolecules.</li>
+                                <li>Enzymes</li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+                <!--  -->
+                 <!--  -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Gene Expression<br> and Regulation</h4>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="acrd-ans">
+
+                            <ul>
+                        <li>DNA structure.</li>
+                        <li>Gene expression.</li>
+                        <li>Biotechnology</li>
+                    </ul>
+                </div>
+            </div>
                 </div>
                 <!--  -->
                 <!--  -->
@@ -179,7 +343,13 @@
                         <h4>Cell Communication<br> and the Cell Cycle </h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Cell signaling.</li>
+                                <li>Mitosis.</li>
+                                <li>Feedback mechanisms</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
@@ -189,17 +359,32 @@
                         <h4>Heredity</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Mendelian genetics.</li>
+                                <li>Meiosis.</li>
+                                <li>Inheritance patterns</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
+               
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Gene Expression<br> and Regulation</h4>
+                        <h4>Applied Biology & Biotechnology Extensions</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <p>Modern applications :</p>
+                            <ul>
+                                <li>CRISPR.</li>
+                                <li>Gene editing ethics.</li>
+                                <li>Synthetic biology.</li>
+                                <li>Synthetic biology.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
@@ -209,27 +394,29 @@
                         <h4>Natural Selection</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Evolution.</li>
+                                <li>Hardy-Weinberg.</li>
+                                <li>Speciation</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>Ecology</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Ecosystems.</li>
+                                <li>Energy flow</li>
+                                <li>Population dynamics</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
@@ -240,21 +427,17 @@
     <!-- Tabs with accordion -->
     <section>
         <div class="container">
-            <h2 class="text-center blue_mnhdng">FAQs</h2>
-            <div class="faqsection">
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">FAQs</h2>
+            <div class="faqsection" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What SAT prep courses do you offer?</h3>
+                            <h3>Is AP Biology only for students planning to study medicine?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <h4>We offer multiple SAT prep options:</h4>
-                                <p><strong>Self-Paced Course – </strong>Flexible, on-demand video lessons and practice questions.</p>
-                                <p><strong>Live Online Course – </strong>Interactive, instructor-led classes with structured study plans.</p>
-                                <p><strong>One-on-One Tutoring – </strong>Personalized coaching for targeted improvement.</p>
-                                <p><strong>Crash Course – </strong>Intensive, short-term prep for last-minute test-takers.</p>
+                               <p>No. While it’s great for pre-med, it’s also useful for fields like biotechnology, neuroscience, psychology, and environmental science.</p>
                             </div>
                         </div>
                     </div>
@@ -262,144 +445,71 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How long do the SAT prep courses last?</h3>
+                            <h3>Can AP Biology help me earn college credit?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Yes. A strong score can earn you credit or let you skip introductory biology courses at many colleges.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Are full-length SAT practice tests included?</h3>
+                            <h3>Is AP Biology a hard subject to score well in?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>It requires effort, but with the right prep, many students improve their score by 2 points or more.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Do you provide official SAT study materials?</h3>
+                            <h3>Do I need to take AP Biology if I’ve already studied biology in school?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Yes. AP Biology goes deeper and aligns with college-level expectations. It also strengthens your application.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Can I switch between packages after enrolling?</h3>
+                            <h3>Does AP Biology include lab work?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Yes. It builds lab-based thinking, analytical skills, and understanding of scientific experiments.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>What if I miss a live session?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>Is there a free trial or demo?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>How do I enroll?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
+                    
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
 
         </div>
     </section>
     <!-- Tabs with accordion -->
-    <section>
-        <div class="container">
-            <div class="prsnlz">
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
+    
+    <!-- TOP PREP Holistic footer -->
+     <?php include '../../components/top_holisftr.php';?>
+    <!-- TOP PREP Holistic footer -->
 
-                    <h3>Highest<br>
-                        Personalization.</h3>
-                    <p>Be Your Best Version.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Academic<br>
-                        Excellence.</h3>
-                    <p>Achieve subject mastery beyond curriculum.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Trained by<br>
-                        the Best.</h3>
-                    <p>Bring out your Best.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Holistic<br>
-                        Development.</h3>
-                    <p>Empowering You for a strong application.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footerstrip -->
-    <div class="footer_strip">
-        <div class="strip active">
-            <span>Keep Exploring</span>
-        </div>
-        <div class="strip">
-            <span>Test Prep</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Study Abroad</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Sucess Story</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-    </div>
-    <!-- footerstrip -->
-
-
-    <!-- Sticky footer -->
-    <?php include '../../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
 
     <!-- Footer -->
     <?php include '../../components/footer.php'; ?>

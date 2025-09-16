@@ -4,13 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Tutoring</title>
+    <title>Private Tutoring | EduEdge Pro</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Private Tutoring | EduEdge Pro">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+    <meta property="og:url" content="https://eduedgepro.com/top-prep/psat/private-tutoring.php">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Private Tutoring | EduEdge Pro">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <?php include '../style_css.php'; ?>
 </head>
 
 <body>
     <!-- Header -->
-    <?php include '../components/satprep_header.php'; ?>
+    <?php include '../components/private-tutoring_header.php'; ?>
     <!-- Header -->
 
     <!-- banner -->
@@ -716,48 +727,13 @@
                 </div>
             </div>
             <!-- End -->
-            <div class="prsnlz">
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Highest<br>
-                        Personalization.</h3>
-                    <p>Be Your Best Version.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Academic<br>
-                        Excellence.</h3>
-                    <p>Achieve subject mastery beyond curriculum.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Trained by<br>
-                        the Best.</h3>
-                    <p>Bring out your Best.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Holistic<br>
-                        Development.</h3>
-                    <p>Empowering You for a strong application.</p>
-                </div>
-            </div>
         </div>
     </section>
     <!-- Tabs with accordion -->
-    <!-- Sticky footer -->
-    <?php include '../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
+
+    <!-- TOP PREP Holistic footer -->
+     <?php include '../components/top_holisftr.php';?>
+    <!-- TOP PREP Holistic footer -->
 
     <!-- Footer -->
     <?php include '../components/footer.php'; ?>

@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About Us &#8208; EduEdge Global Mumbai</title>
+    <meta name="description" content="EduEdge Global Mumbai empowers 10th & 12th students with personalized mentorship, test prep (SAT, GRE, IELTS), and study-abroad support�built for global success.">
+    <meta name="keywords" content="EduEdge Global Mumbai">  
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="EduEdge Pro | About">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+  <meta property="og:url" content="https://eduedgepro.com/about-us.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EduEdge Pro | About">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <!-- CSS -->
     <?php include 'style_css.php'; ?>
     <!-- CSS -->
@@ -18,8 +30,8 @@
     <div class="pt-space"></div>
 
     <!-- breadcrumb -->
+    <div class="container">
     <div class="breadcrumb">
-        <div class="container">
             <ul class="breadcrumb-item">
                 <li>
                     <a href="<?php echo $base_url; ?>">Home</a>
@@ -35,33 +47,37 @@
 
     <section>
         <div class="container">
-            <h1 class="blue_mnhdng text-center">Empowering Careers<br>Through Real-World Education</h1>
-            <p class="mn-para">Started by global finance experts and Stanford alumni. We specialize in delivering practical, industry-led upskilling programs across Investment Banking, FinTech, Analytics, and Global Admissions.</p>
+            <div class="hdng text-center" data-aos="fade-up">
+                <h1 class="blue_mnhdng ">Global Experts. Personalised Prep. Guaranteed.</h1>
+                <p class="mn-para">EduEdge Pro blends Ivy League expertise with personalised coaching and global insights to help students ace competitive exams and<br> achieve top university admissions.</p>
+            </div>
             <!-- baner -->
             <div class="abtbaner">
                 <img src="<?php echo $base_url; ?>assets/imgs/about/aboutbaner.webp" class="abtbanr_img" alt="About banner" width="1312" height="480">
             </div>
             <!-- baner -->
-
-            <div class="abt-unis">
+ 
+            <div class="abt-unis" data-aos="fade-up">
                 <div class="unis">
                     <div class="unihd">
-                        <h3>Started by Stanford<br> University Alumnus</h3>
-                        <p>Started by a Stanford Alumnus in 2017, EduEdge Pro is a leading higher education Upskilling, Career Counselling & Studies Abroad company, focused on providing high quality training, recruitment and admissions support services.</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <h3>Started by Stanford<br> University Alumnus</h3> -->
+                        <!-- <p>Started by a Stanford Alumnus in 2017, EduEdge Pro is a leading higher education Upskilling, Career Counselling & Studies Abroad company, focused on providing high quality training, recruitment and admissions support services.</p> -->
+                        <h3>Driven by Stanford-Led<br> Expertise</h3>
+                         <p>Our academic leadership includes Stanford alumni and Ivy League mentors who bring deep subject knowledge, global admissions insight, and strategic test prep methods—ensuring every student receives elite guidance tailored to their strengths, goals, and aspirations.</p>
+                        <!-- <a  class="secondary-btn">
                             <span>Test Prep</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="unis">
                     <div class="unihd">
                         <h3>Upskilling top<br>companies & universities</h3>
                         <p>We primarily started with Upskilling programs at leading corporates including top Investment Banks and the big 4 Consulting firms and universities across India in the areas of Finance & Banking, Investment Banking, Fintech, Data Science, & Analytics. </p>
-                        <a href="#" class="secondary-btn">
-                            <span>Study Abroad</span>
+                        <a  class="secondary-btn">
+                            <span>Enterprise Pro</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
@@ -72,8 +88,8 @@
                     <div class="unihd">
                         <h3>Profile Building<br>& Test Prep</h3>
                         <p>For schools and colleges, we conduct exhaustive and rigorous Studies Abroad – Application Support, Test Prep and Finishing School verticals to further help our students  and guide them better towards an accelerated and successful career ahead.</p>
-                        <a href="#" class="secondary-btn">
-                            <span>Profile Building</span>
+                        <a  class="secondary-btn" href="<?php echo $base_url;?>study-abroad/overview.php">
+                            <span>Study Abroad</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
@@ -86,7 +102,7 @@
 
     <section>
         <div class="container">
-            <div class="abt-counter">
+            <div class="abt-counter" data-aos="fade-up">
                 <!-- counter -->
                 <div class="counter09">
                     <div>
@@ -99,23 +115,23 @@
                     </div>
                     <div>
                         <h2><span class="count" data-count="35">0</span>K+</h2>
-                        <p>Students Trained & Counselled</p>
+                        <p>Students Counselled & Trained</p>
                     </div>
                 </div>
                 <!-- counter -->
             </div>
-            <div class="global-partners">
+            <div class="global-partners" data-aos="fade-up">
                 <div class="global_hd">
-                    <h4 class="text-center">Learning Powered by Global Leaders</h4>
+                    <h4 class="text-center">Global Partnerships. Local Advantage.</h4>
                 </div>
                 <div class="gb rflx">
                     <div class="gbfd">
                         <img src="<?php echo $base_url;?>assets/imgs/logo/kaplan.svg" alt="">
-                        <p>Don’t settle for anything less than #1. Test Prep Insight names us their Editor’s Choice and says</p>
+                        <p>Our test prep programs are powered by Kaplan’s proven global methodologies and trusted academic frameworks for success.</p>
                     </div>
                     <div class="gbfd">
                         <img src="<?php echo $base_url;?>assets/imgs/logo/bloomberg.svg" alt="">
-                        <p>Don’t settle for anything less than #1. Test Prep Insight names us their Editor’s Choice and says</p>
+                        <p>Get exclusive access to Bloomberg’s financial learning modules—developing real-world insights and industry-ready analytical skills early.</p>
                     </div>
                 </div>
             </div>
@@ -124,20 +140,20 @@
 
     <section>
         <div class="container">
-            <div class="msimg">
+            <div class="msimg" data-aos="fade-up">
                 <img src="<?php echo $base_url;?>assets/imgs/about/abtbanner2.webp" alt="About Banner" width="1312" height="480">
                 <div class="txtover">
-                    <h3>Our mission is to empower individuals with world-class training, personalized guidance, industry support, and mentorship to build stronger, future-ready careers.</h3>
+                    <h3>Empowering global learners with world-class test prep, expert mentorship, and real-world skills through trusted partnerships and future-focused programs.</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="pt-10 pb-100">
         <div class="container">
-            <h2 class="text-center blue_mnhdng">The EduEdge Advantage</h2>
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">The EduEdge Advantage</h2>
             <div class="advantages">
-                            <div class="abt-unis">
+                            <div class="abt-unis" data-aos="fade-up">
                 <div class="unis">
                     <div class="unihd">
                         <h3>World Class Training</h3>
@@ -152,8 +168,10 @@
                 </div>
                 <div class="unis">
                     <div class="unihd">
-                        <h3>Industry Support</h3>
-                        <p>Strong ties with top companies and institutions provide networking, internships, and placement support aligned with market needs.</p>
+                        <!-- <h3>Industry Support</h3> -->
+                        <!-- <p>Strong ties with top companies and institutions provide networking, internships, and placement support aligned with market needs.</p> -->
+                         <h3>Global Industry Exposure</h3>
+                         <p>Gain an edge with global-standard prep built on real-world exposure, industry-aligned curriculum, and expert-led guidance that ensures future readiness.</p>
                     </div>
                 </div>
                 <div class="unis">
@@ -168,9 +186,13 @@
     </section>
 
     <!-- Founders -->
-     <section class="greysec">
-        <div class="container">
-            <h2 class="text-center blue_mnhdng">Meet our Founders</h2>
+     <section class="greysec" id="mentor">
+        <div class="container" data-aos="fade-up">
+            <!-- <h2 class="text-center blue_mnhdng">Meet our Founders</h2> -->
+             <div class="hdng text-center">
+                 <h2 class="text-center blue_mnhdng">Mentorship That Drives Success</h2>
+            <p>Learn from top global faculty, industry experts, and certified trainers who mentor<br> you through every step of your test prep and admissions journey.</p>
+                </div>
             <div class="founders_tab" data-tab-section>
                 <ul class="tab-buttons">
                         <li class="tb-cntnt trndflx" data-tab="tab1">
@@ -183,7 +205,7 @@
                             <div class="founder_img">
                                 <img src="<?php echo $base_url;?>assets/imgs/about/amarjeet.svg" alt="Amarjeet Singh" width="48" height="48">
                             </div>
-                            <p>Professor Amarjeet Singh</p>
+                            <p>Dr. Amarjeet Singh</p>
                         </li>
                     </ul>
                     <!-- tabs content -->
@@ -194,7 +216,7 @@
                                     <img src="<?php echo $base_url;?>assets/imgs/about/founder1.svg" alt="Harjeet Singh" width="320" height="326">
                                 </div>
                                 <div class="tb_imgdtl">
-                                    <h4>Prof. Harjeet Singh</h4>
+                                    <h4>Professor Harjeet A Singh</h4>
                                     <p>Founder & Director<br> CFA | FRM | CAIA | PRM<br> Stanford University Alumnus</p>
                                 </div>
                             </div>
@@ -220,7 +242,39 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tbs" id="tab2"></div>
+                    <div class="tbs" id="tab2">
+                        <div class="tbrflx">
+                            <div class="tblft">
+                                <div class="tb_img">
+                                    <img src="<?php echo $base_url;?>assets/imgs/about/amarjeet.webp" alt="Amarjeet Singh" width="320" height="326">
+                                </div>
+                                <div class="tb_imgdtl">
+                                    <h4>Dr. Amarjeet Singh</h4>
+                                    <p>CAIA (USA), MCSI(UK), CMT(USA)<br> Founder-Director EduEdgePro Pvt Ltd Formerly with Ministry of Finance</p>
+                                </div>
+                            </div>
+                            <div class="tbrgt">
+                                <div class="tbrgt_flx">
+                                    <div class="tbrgt_crds">
+                                        <h5 class="tbrgt_hd">EdTech Leadership<br></h5>
+                                        <p>Founder & MD of EduEdgePro, offering BFSI and Analytics upskilling to bridge the gap between academia and industry needs.</p>
+                                    </div>
+                                    <div class="tbrgt_crds">
+                                        <h5 class="tbrgt_hd">Academic<br> Contributions</h5>
+                                        <p>Serves on BoS at Christ and ITM; teaches at SP Jain, XLRI, and JBIMS, bringing real-world insights to B-school classrooms.</p>
+                                    </div>
+                                    <div class="tbrgt_crds">
+                                        <h5 class="tbrgt_hd">Ministry of Finance<br> Experience</h5>
+                                        <p>25+ years with Customs & Excise; expert in tax law and policy. Recipient of Samman Patra for meritorious government service.</p>
+                                    </div>
+                                    <div class="tbrgt_crds">
+                                        <h5 class="tbrgt_hd">Media<br> Presence</h5>
+                                        <p>Regular guest on CNBC, NDTV-Profit & Zee Business, known for long-term market trend insights in Indian and global equities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- tabs content -->
                 </div>
             </div>
@@ -232,21 +286,21 @@
       <section>
         <div class="container">
             <h2 class="text-center blue_mnhdng">Meet our Leadership Team</h2>
-            <div class="leaders">
+            <div class="leaders" data-aos="fade-up">
                 <!-- cards -->
-                <div class="ldr-crd">
+                <div class="ldr-crd" >
                     <div class="led-img">
                         <img src="<?php echo $base_url;?>assets/imgs/about/leaders/ganesh-iyer.svg" alt="Ganesh Iyer" width="304px" height="280">
                     </div>
                     <div class="ldr-dtl">
                         <h3>Mr. Ganesh Iyer</h3>
                         <p>Head, Business Development & Client Relations</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Know More</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- cards -->
@@ -257,12 +311,12 @@
                     <div class="ldr-dtl">
                         <h3>Mr. O S Vinod</h3>
                         <p>Chief Advisory</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Know More</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- cards -->
@@ -273,12 +327,12 @@
                     <div class="ldr-dtl">
                         <h3>Ms. Vaidehi Chandorkar</h3>
                         <p>Head, Operations</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Know More</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- cards -->
@@ -289,12 +343,12 @@
                     <div class="ldr-dtl">
                         <h3>Ms. Ikraa Bade</h3>
                         <p>Head, Operations</p>
-                        <a href="#" class="secondary-btn">
+                        <!-- <a href="#" class="secondary-btn">
                             <span>Know More</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <!-- cards -->
@@ -307,12 +361,14 @@
 
      <section class="history_sec">
         <div class="container">
-            <div class="histroy_flx">
+            <div class="histroy_flx" data-aos="fade-up">
                 <div class="history_lft">
-                    <h2 class="blue_mnhdng">Brief History</h2>
-                    <p>Our aim was to create an integrated solution single-stop shop to upskill, guide, mentor students and early career professionals</p>
+                    <!-- <h2 class="blue_mnhdng">Brief History</h2> -->
+                    <!-- <p>Our aim was to create an integrated solution single-stop shop to upskill, guide, mentor students and early career professionals</p> -->
+                     <h2 class="blue_mnhdng">World-class Standards,<br> Local Understanding</h2>
+                     <p>World-class curriculum, tailored guidance, and real results—delivered with deep insight into the Indian academic and admissions landscape.</p>
                     <div class="history_img">
-                        <img src="<?php echo $base_url;?>assets/imgs/about/history.svg" alt="History Image" width="448" height="400">
+                        <img src="<?php echo $base_url;?>assets/imgs/about/history.webp" alt="History Image" width="448" height="400">
                     </div>
                 </div>
                 <div class="history_rgt">
@@ -349,28 +405,8 @@
      <!-- Brief History -->
 
      <!-- footerstrip -->
-<div class="footer_strip">
-        <div class="strip active">
-            <span>Keep Exploring</span>
-        </div>
-        <div class="strip">
-            <span>Test Prep</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
-        </div>
-        <div class="strip">
-            <span>Study Abroad</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
-        </div>
-        <div class="strip">
-            <span>Sucess Story</span>
-            <img src="<?php echo $base_url; ?>assets/imgs/logo/righticon_green.svg" alt="Icon">
-        </div>
-    </div>
+      <?php include 'components/footer-strip.php';?>
     <!-- footerstrip -->
-
-    <!-- Sticky footer -->
-    <?php include 'components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
 
     <!-- footer -->
     <?php include 'components/footer.php'; ?>

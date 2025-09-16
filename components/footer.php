@@ -7,11 +7,11 @@
             <div class="ftr_srvlist">
                 <h4>TopPrep</h4>
                 <ul>
-                    <li><a href="#">GRE</a></li>
-                    <li><a href="#">GMAT</a></li>
-                    <li><a href="#">SAT</a></li>
-                    <li><a href="#">AP</a></li>
-                    <li><a href="#">ACT</a></li>
+                    <li><a href="<?php echo $base_url;?>top-prep/sat-prep.php">SAT</a></li>
+                    <li><a href="<?php echo $base_url;?>top-prep/gre.php">GRE</a></li>
+                    <li><a href="<?php echo $base_url;?>top-prep/gmat.php">GMAT</a></li>
+                    <li><a href="<?php echo $base_url;?>top-prep/ap.php">AP</a></li>
+                    <li><a href="<?php echo $base_url;?>top-prep/act-prep.php">ACT</a></li>
                     <li><a href="#">IELTS</a></li>
                     <li><a href="#">TOEFLE</a></li>
                 </ul>
@@ -19,24 +19,21 @@
             <div class="ftr_srvlist">
                 <h4>Student Service</h4>
                 <ul>
-                    <li><a href="#">Counselling</a></li>
-                    <li><a href="#">Developing Application</a></li>
-                    <li><a href="#">Review Application</a></li>
-                    <li><a href="#">Profile Building</a></li>
-                    <li><a href="#">Interview Prep</a></li>
-                    <li><a href="#">Post application support</a></li>
-                    <li><a href="#">Pre-university training</a></li>
+                    <li><a href="<?php echo $base_url;?>study-abroad/overview.php">Study Abroad</a></li>
+                    <li><a href="<?php echo $base_url;?>study-abroad/admissions-consulting-and-profile-building.php">Admissions Consulting<br> and Profile Building</a></li>
+                    <li><a href="<?php echo $base_url;?>study-abroad/early-profile-building-and-mentoring.php">Early Profile Building<br> and Mentoring</a></li>
+                    <li><a href="<?php echo $base_url;?>study-abroad/early-profile-building-and-mentoring/comprehensive-plan-with-training.php">Comprehensive Plan<br> with Training</a></li>
                 </ul>
             </div>
             <div class="ftr_srvlist">
                 <h4>Important Links</h4>
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Success Stories</a></li>
+                    <li><a href="<?php echo $base_url;?>about-us.php">About Us</a></li>
+                    <!-- <li><a href="#">Success Stories</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Blogs</a></li>
-                    <li><a href="#">News and Events</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">News and Events</a></li> -->
+                    <li><a href="<?php echo $base_url;?>contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -48,22 +45,21 @@
                 </li>
                 <li>
                     <h4>Call us</h4>
-                    <a href="tel:+919876543210">+91 987 654 3210</a>
+                    <a href="tel:+918108800760">+91 81088 00760</a>
                 </li>
                 <li>
                     <h4>Get Social</h4>
                     <ul class="socm">
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/linkedin.svg" alt="Linkedin" width="20" height="19"></a></li>
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/insta.svg" alt="Instagram" width="20" height="20"></a></li>
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/x.svg" alt="Twitter" width="20" height="20"></a></li>
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/yt.svg" alt="Youtube" width="20" height="20"></a></li>
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/fb.svg" alt="Facebook" width="20" height="20"></a></li>
+                        <!-- <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/linkedin.svg" alt="Linkedin" width="20" height="19"></a></li> -->
+                        <li><a><img src="<?php echo $base_url; ?>assets/imgs/logo/insta.svg" alt="Instagram" width="20" height="20"></a></li>
+                        <!-- <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/x.svg" alt="Twitter" width="20" height="20"></a></li>
+                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/yt.svg" alt="Youtube" width="20" height="20"></a></li> -->
+                        <li><a><img src="<?php echo $base_url; ?>assets/imgs/logo/fb.svg" alt="Facebook" width="20" height="20"></a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div class="ftr-tabs" data-tab-section>
-            <!-- tab buttons -->
+        <!-- <div class="ftr-tabs" data-tab-section>
             <ul class="tab-buttons">
                 <li class="tb-cntnt active" data-tab="tab1"><span>SAT</span></li>
                 <li class="tb-cntnt" data-tab="tab2"><span>GRE</span></li>
@@ -74,8 +70,6 @@
                 <li class="tb-cntnt" data-tab="tab7"><span>IELTS</span></li>
                 <li class="tb-cntnt" data-tab="tab8"><span>TOEFL</span></li>
             </ul>
-            <!-- tab buttons -->
-            <!-- tab-content -->
             <div class="tabs-content">
                 <div class="tbs active" id="tab1">
                     <ul class="tbs-flx">
@@ -103,8 +97,7 @@
                 <div class="tbs" id="tab7"></div>
                 <div class="tbs" id="tab8"></div>
             </div>
-            <!-- tab-content -->
-        </div>
+        </div> -->
         <div class="ftr__second">
             <ul class="flgs_list">
                 <li>
@@ -139,31 +132,31 @@
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/usa.svg" alt="UK Flag" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/uk.svg" alt="UK Flag" width="48" height="48">
                         <h4>Study in UK</h4>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/ire.svg" alt="Ireland Flag" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/china.svg" alt="Ireland Flag" width="48" height="48">
                         <h4>Study in China</h4>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/aus.svg" alt="Australia Flag" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kh.svg" alt="Australia Flag" width="48" height="48">
                         <h4>Study in Hongkong</h4>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/nz.svg" alt="New Zealand Flag" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/jp.svg" alt="New Zealand Flag" width="48" height="48">
                         <h4>Study in Japan</h4>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/can.svg" alt="Canada Flag" width="48" height="48">
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/eu.svg" alt="Canada Flag" width="48" height="48">
                         <h4>Study in EU</h4>
                     </a>
                 </li>
@@ -174,8 +167,7 @@
                 <a>EduEdgePro © 2025, Inc. All Rights Reserved.</a>
             </div>
             <div class="policies">
-                <a href="#">Policies</a>
-                <a href="#">Terms & Conditions</a>
+                <a href="<?php echo $base_url;?>privacy-policy.php">Privacy Policy</a>
             </div>
         </div>
     </div>

@@ -4,7 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Physics</title>
+    <title>AP Physics | EduEdge Pro</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AP Physics | EduEdge Pro">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+    <meta property="og:url" content="https://eduedgepro.com/top-prep/ap/ap-physics.php">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AP Physics | EduEdge Pro">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <?php include '../../style_css.php'; ?>
 </head>
 
@@ -17,11 +28,11 @@
     <div class="satbanner">
         <div class="prp-banner">
         <picture>
-            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg">
-            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satmb.jpg">
-            <img src="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg" alt="Banner" class="bannerimg" width="1440" height="768">
+            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/physics.webp">
+            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/physics-mb.webp">
+            <img src="<?php echo $base_url; ?>assets/imgs/top-prep/ap/physics.webp" alt="Banner" class="bannerimg" width="1440" height="768">
         </picture>
-        <div class="baner_botom">
+        <div class="baner_botom white_clr">
                 <p>Powered by Proven Kaplan Pedagogy</p>
                 <p>Mentorship by Ivy-League Experts</p>
             </div>
@@ -57,16 +68,16 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Boost your Application<br> with a great AP score!</h1>
-                        <p>We will help you raise your AP score by atleast 150 points!</p>
-                        <a class="white-btn">
+                        <h1>Crack AP Physics.<br> Conquer Every Concept.</h1>
+                        <p>Built for STEM aspirants, our AP Physics prep drives results and builds real-world thinking.</p>
+                        <a class="white-btn" href="#programs">
                             <span>View Our Courses</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
                         </a>
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/truspilot.svg" alt="Trust Pilot" width="281" height="40">
-                        <small>Based on <span class="underline">5,931 reviews</span></small>
+                        <a class="revlnk" href="https://www.trustpilot.com/review/kaptest.com?utm_medium=trustbox&utm_source=Carousel" target="_blank">Based on <span class="underline">5,931 reviews</span></a>
                     </div>
                 </div>
                 <div class="bannergt">
@@ -81,57 +92,114 @@
     </div>
     <!-- banner -->
 
-    <section class="greysec">
+    <section class="greysec" id="programs">
         <div class="container">
-            <div class="kplna-card">
-                <div class="crd_kpln">
-                    <div class="klpn_imgLogo">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
-                    </div>
-                    <div class="crd_tl">
-                        <h2>kaplan Live<br> Online SAT</h2>
-                        <p>Course Features</p>
-                    </div>
+            <!-- <h2 class="blue_mnhdng text-center">Prep Your Way to Top SAT Scores</h2> -->
+            <div class="prep_plans slick-slider"  data-aos="fade-up">
+                
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Physics 1 & 2 1:1 Tutoring</h3>
+                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>18 hours of immersive live instruction</li>
-                            <li>Learn from 99th-percentile-scoring SAT teachers</li>
-                            <li>2+ teachers per class</li>
-                            <li>4 realistic SAT practice tests</li>
-                            <li>Comprehensive QBank of 500+ SAT questions</li>
-                            <li>Includes a digital performance dashboard</li>
+                            <li>Covers AP Physics 1 and Physics 2 (2 papers)</li>
+                            <li>100+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>Structured preparation with hand-holding and concept clarity</li>
+                            <li>Kaplan On-Demand AP Prep included</li>
+                            <li>4 full-length mock tests for each exam</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Exhaustive study material</li>
+                            <li>Personalized study plan for both papers</li>
                         </ul>
                     </div>
-                    <a href="#" class="secondary-btn">
-                        <span>Buy Now</span>
+                    <p class="satprice">From:<strong> INR 275,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
-                <!--  -->
-                <div class="kpln_dtlimg">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
+                <!-- Plans -->
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Physics C 1:1 Tutoring (Mechanics & E&M)</h3>
+                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Covers AP Physics C: Mechanics and C: Electricity & Magnetism</li>
+                            <li>125+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>High-impact prep with focus on calculus-based problem-solving</li>
+                            <li>Kaplan On-Demand AP Prep included</li>
+                            <li>4 full-length mock tests for each exam</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Exhaustive study material</li>
+                            <li>Tailored strategy for each paper</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 345,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
                 </div>
-            </div>
+                <!-- Plans -->
+                 <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Physics Complete 1:1 Tutoring (Physics 1, 2, C1 & C2)</h3>
+                    <div class="crd-points">
+                        <ul>
+                            <li>Covers all 4 AP Physics exams: Physics 1, Physics 2, C: Mechanics, and C: Electricity & Magnetism</li>
+                            <li>225+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>Personalized 1:1 mentorship with tailored strategy</li>
+                            <li>Kaplan On-Demand AP Prep included</li>
+                            <li>4 full-length mock tests for each exam</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Exhaustive study material</li>
+                            <li>Structured, step-by-step preparation</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 565,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+            <!-- <div class="seeall">
+                <a href="#" class="secondary-btn">
+                    <span>View All</span>
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div> -->
         </div>
     </section>
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Where AP Bio Makes a Difference</h2>
-            <div class="bio-dfrnc">
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Fuel your future with the power of physics.</h2>
+            <div class="bio-dfrnc" data-aos="fade-up">
                 <div class="dfrnc_lft">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/biology/bio-lab.webp" alt="Bio Lab Images" width="528" height="544">
+                    <img src="<?php echo $base_url; ?>assets/imgs/top-prep/ap/phythumb.webp" alt="Physics lab" width="528" height="544">
                 </div>
                 <div class="dfrnc_rgt">
                     <div class="lab_column">
-                        <h5>Health, Medicine & Life Sciences</h5>
-                        <p>From <strong>nursing</strong> and <strong>pharmacy</strong> to <strong>biomedical</strong> and <strong>biochemistry</strong> majors, AP Bio covers essential topics like <strong>genetics, cell biology, immunology,</strong> and <strong>biotech.</strong></p>
+                        <h5>Engineering, Technology & Emerging Fields</h5>
+                        <p>AP Physics is essential for careers in mechanical, aerospace, electrical, and civil engineering, as well as robotics, nanotech, and renewable energy.</p>
                     </div>
                     <div class="lab_column">
-                        <h5>Environment & Behavior</h5>
-                        <p>Explore <strong>ecosystems,</strong> biodiversity, and <strong>the biology of behavior</strong>—a great fit for <strong>ecology, conservation,</strong> and <strong>psychology</strong> pathways.</p>
+                        <h5>Data, Health & Interdisciplinary Sciences</h5>
+                        <p>It also underpins fields like computational physics, machine learning, AI, space science, and biomedical engineering—bridging the gap between theory and innovation.</p>
                     </div>
                 </div>
             </div>
@@ -140,95 +208,53 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Master these areas and topic</h2>
-            <div class="top_faqs" data-accordion>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Master these areas and topic</h2>
+            <div class="top_faqs" data-accordion data-aos="fade-up">
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>AP Physics 1</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <p>Algebra-based course focused on motion, forces, energy, momentum, waves, and basic circuits. Ideal for students beginning their physics journey.</p>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cell Structure and<br> Function</h4>
+                        <h4>AP Physics 2</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <p>Builds on Physics 1 with topics like fluids, thermodynamics, electricity, magnetism, optics, and modern physics. Best suited for life science majors.</p>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cellular<br> Energetics</h4>
+                        <h4>AP Physics C: Mechanics</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                       <div class="acrd-ans">
+                        <p>Calculus-based course covering motion, forces, energy, and rotational dynamics. Recommended for students targeting engineering or physics majors.</p>
+                       </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cell Communication<br> and the Cell Cycle </h4>
+                        <h4>AP Physics C: Electricity & Magnetism</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Heredity</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Gene Expression<br> and Regulation</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Natural Selection</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
-                    </div>
-                </div>
-                <!--  -->
-                <!--  -->
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
-                    </div>
-                    <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <p>Fast-paced, calculus-based course covering electrostatics, circuits, magnetism, and electromagnetic induction. Designed for advanced students eyeing top engineering schools.</p>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
@@ -239,21 +265,17 @@
     <!-- Tabs with accordion -->
     <section>
         <div class="container">
-            <h2 class="text-center blue_mnhdng">FAQs</h2>
-            <div class="faqsection">
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">FAQs</h2>
+            <div class="faqsection" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What SAT prep courses do you offer?</h3>
+                            <h3>What’s the difference between AP Physics 1, 2, and C?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <h4>We offer multiple SAT prep options:</h4>
-                                <p><strong>Self-Paced Course – </strong>Flexible, on-demand video lessons and practice questions.</p>
-                                <p><strong>Live Online Course – </strong>Interactive, instructor-led classes with structured study plans.</p>
-                                <p><strong>One-on-One Tutoring – </strong>Personalized coaching for targeted improvement.</p>
-                                <p><strong>Crash Course – </strong>Intensive, short-term prep for last-minute test-takers.</p>
+                                <p>AP Physics 1 and 2 are algebra-based and cover broad concepts; Physics C: Mechanics and Electricity & Magnetism are calculus-based and more intensive—ideal for students targeting engineering or physical sciences.</p>
                             </div>
                         </div>
                     </div>
@@ -261,144 +283,70 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How long do the SAT prep courses last?</h3>
+                            <h3>Who should take AP Physics?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Students interested in STEM, engineering, architecture, data science, or health sciences will benefit greatly from AP Physics. It's also a strong choice for those applying to competitive universities.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Are full-length SAT practice tests included?</h3>
+                            <h3>Do I need to know calculus for AP Physics C?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Yes. AP Physics C requires a working knowledge of calculus since it’s used extensively in problem-solving.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Do you provide official SAT study materials?</h3>
+                            <h3>How many exams are there if I take all Physics courses?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>If you're taking Physics 1, 2, C: Mechanics, and C: E&M, you'll appear for four separate AP exams.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Can I switch between packages after enrolling?</h3>
+                            <h3>How does EduEdge help improve my AP Physics score?</h3>
                         </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>What if I miss a live session?</h3>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>We offer personalized 1:1 tutoring, Kaplan resources, full-length mock tests, and tailored strategies to improve your score by at least 2 points.</p>
+                            </div>
                         </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>Is there a free trial or demo?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>How do I enroll?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
                     </div>
                     <!--  -->
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
 
         </div>
     </section>
     <!-- Tabs with accordion -->
-    <section>
-        <div class="container">
-            <div class="prsnlz">
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Highest<br>
-                        Personalization.</h3>
-                    <p>Be Your Best Version.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Academic<br>
-                        Excellence.</h3>
-                    <p>Achieve subject mastery beyond curriculum.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Trained by<br>
-                        the Best.</h3>
-                    <p>Bring out your Best.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Holistic<br>
-                        Development.</h3>
-                    <p>Empowering You for a strong application.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footerstrip -->
-    <div class="footer_strip">
-        <div class="strip active">
-            <span>Keep Exploring</span>
-        </div>
-        <div class="strip">
-            <span>Test Prep</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Study Abroad</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Sucess Story</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-    </div>
-    <!-- footerstrip -->
 
 
-    <!-- Sticky footer -->
-    <?php include '../../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
+    <!-- TOP PREP Holistic footer -->
+     <?php include '../../components/top_holisftr.php';?>
+    <!-- TOP PREP Holistic footer -->
 
     <!-- Footer -->
     <?php include '../../components/footer.php'; ?>

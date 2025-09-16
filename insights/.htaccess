@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /insights/
+
+# Detail pages first: /blog/some-slug, /webinar/some-slug, /video/some-slug
+RewriteRule ^(blog|webinar|video)/([^/]+)/?$ resources-details.php?slug=$2 [L]
+
+# Listing pages: /blog/, /webinar/, /video/
+RewriteRule ^(blog|webinar|video)/?$ index.php [L]

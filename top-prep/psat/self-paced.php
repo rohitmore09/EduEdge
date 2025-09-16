@@ -4,24 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSAT Self Paced</title>
+    <title>PSAT Self Paced | EduEdge Pro</title>
+    <meta name="description" content="">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PSAT Self Paced | EduEdge Pro">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+  <meta property="og:url" content="https://eduedgepro.com/top-prep/psat/self-paced.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PSAT Self Paced | EduEdge Pro">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->
+     <style>
+        .sp_active{color: var(--primary) !important;}
+     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <?php include '../../components/satprep_header.php'; ?>
+    <?php include '../../components/psat_header.php'; ?>
     <!-- Header -->
 
     <!-- banner -->
 
     <div class="satbanner">
         <picture>
-            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satonline-banner.jpg">
-            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satonlinemb.jpg">
-            <img src="<?php echo $base_url; ?>assets/imgs/satprep/satonline-banner.jpg" alt="Banner" class="bannerimg">
+            <source media="(min-width: 769px)" srcset="<?php echo $base_url;?>assets/imgs/top-prep/psat/self-paced.webp">
+            <source media="(max-width: 768px)" srcset="<?php echo $base_url;?>assets/imgs/top-prep/psat/self-paced-mb.webp">
+            <img src="<?php echo $base_url;?>assets/imgs/top-prep/psat/self-paced.webp" alt="Banner" class="bannerimg">
         </picture>
         <div class="container">
              <!-- breadcrumb -->
@@ -40,7 +54,7 @@
                         </svg>
                     </li>
                     <li>
-                        <a>PSAT</a>
+                        <a href="<?php echo $base_url;?>top-prep/psat.php">PSAT</a>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
@@ -54,10 +68,10 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Boost your Application<br> with a great SAT score!</h1>
-                        <p>We will help you raise your SAT score by atleast 150 points!</p>
-                        <a class="white-btn">
-                            <span>View Our Courses</span>
+                        <h1>Study When You Want,<br> Learn How You Like</h1>
+                        <p>Self-paced PSAT prep powered by Kaplan’s trusted content and EduEdge’s expert framework.</p>
+                        <a class="white-btn" href="#programs">
+                            <span>Explore Our Programs</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
@@ -80,57 +94,35 @@
 
     <section class="greysec">
         <div class="container">
-            <div class="kplna-card">
+            <div class="kplna-card" data-aos="fade-left">
                 <div class="crd_kpln">
                 <div class="klpn_imgLogo">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
                     <div class="crd_tl">
-                        <h2>kaplan Live<br> Online SAT</h2>
+                        <h2>Kaplan On-Demand PSAT</h2>
                         <p>Course Features</p>
                     </div>
                     <div class="crd-points">
                         <ul>
-                            <li>18 hours of immersive live instruction</li>
-                            <li>Learn from 99th-percentile-scoring SAT teachers</li>
-                            <li>2+ teachers per class</li>
-                            <li>4 realistic SAT practice tests</li>
-                            <li>Comprehensive QBank of 500+ SAT questions</li>
-                            <li>Includes a digital performance dashboard</li>
+                            <li>Eight topic-specific quizzes</li>
+                            <li>Easy-to-use, on-demand platform accessible anytime, anywhere</li>
+                            <li>PSAT content developed by experienced instructors</li>
+                            <li>Comprehensive review of all test-taking strategies</li>
+                            <li>Video lessons covering highest-yield topics</li>
+                            <li>Access to KapAdvisor, your virtual college admissions counselor</li>
                         </ul>
                     </div>
-                    <a href="#" class="secondary-btn">
+                    <!-- <a href="#" class="secondary-btn">
                         <span>Buy Now</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
                 <!--  -->
-                <div class="crd_kpln">
-                <div class="klpn_imgLogo">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
-                    </div>
-                    <div class="crd_tl">
-                        <h2>Comprehensive Prep<br> with Kaplan Integrated</h2>
-                        <p>Course Features</p>
-                    </div>
-                    <div class="crd-points">
-                        <ul>
-                            <li>Live Offline/Online 60+ hours of Group training</li>
-                            <li>6 Adaptive Digital SAT Practice Tests</li>
-                            <li>Structured, step-by-step approach, hand-holding</li>
-                            <li>A comprehensive QBank that contains over 500 realistic SAT questions</li>
-                            <li>Led by 99th-percentile scorers</li>
-                            <li>Access to Kaplan on demand online self-paced course modules</li>
-                        </ul>
-                    </div>
-                    <a href="#" class="secondary-btn">
-                        <span>Buy Now</span>
-                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                    </a>
+                <div class="kpln_dtlimg" data-aos="fade-right">
+                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
                 </div>
             </div>
         </div>
@@ -138,63 +130,65 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Our Excellence. Your Commitment.<br> Guaranteed Exam Success</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Our Excellence. Your Commitment.<br> Guaranteed Exam Success</h2>
 
 
-            <div class="edlsit">
-                <div class="edlst_elem">
-                    <div class="elemdv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/setprepicon.svg" alt="Icon" width="40" height="40">
-                    </div>
-                    <h3>Learn from the<br> Best Tutors</h3>
-                    <ul>
-                        <li>99+ percentile Tutors</li>
-                        <li>Ivy League Trainers</li>
-                        <li>Domain Experts</li>
-                    </ul>
-                </div>
+            <div class="edlsit" data-aos="fade-up">
                 <div class="edlst_elem">
                     <div class="kplndv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Icon" width="177" height="60">
                     </div>
                     <h3>Education<br> Partner</h3>
                     <ul>
-                        <li>Kaplan videos</li>
-                        <li>Kaplan chapter-wise notes</li>
-                        <li>Kaplan books</li>
+                        <li>Kaplan Learning Videos</li>
+                        <li>Kaplan Chapter-wise notes</li>
+                        <li>Kaplan Prep Books</li>
                     </ul>
                 </div>
+
                 <div class="edlst_elem">
                     <div class="elemdv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/setprepicon.svg" alt="Icon" width="40" height="40">
+                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/best-tutor.svg" alt="Icon" width="40" height="40">
+                    </div>
+                    <h3>Learn from the<br> Best Tutors</h3>
+                    <ul>
+                        <li>99+ Percentile Scorers</li>
+                        <li>Ivy League Alumni Trainers</li>
+                        <li>Expert Faculty Across Domains</li>
+                    </ul>
+                </div>
+                
+                <div class="edlst_elem">
+                    <div class="elemdv">
+                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/mocks.svg" alt="Icon" width="40" height="40">
                     </div>
                     <h3>Personalized<br> Planning & Journey</h3>
                     <ul>
-                        <li>Personalized study planner</li>
-                        <li>Score improvement trackers</li>
-                        <li>Progress analytics reports</li>
+                        <li>Customized Study Planner</li>
+                        <li>Targeted Score Improvement Trackers</li>
+                        <li>Detailed Progress Reports & Analytics</li>
                     </ul>
                 </div>
                 <div class="edlst_elem">
                     <div class="elemdv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/setprepicon.svg" alt="Icon" width="40" height="40">
-                    </div>
-                    <h3>Comprehensive<br> Study Material</h3>
-                    <ul>
-                        <li>Detailed Guide</li>
-                        <li>Smart Strategies Playbook</li>
-                        <li>Flashcards & Cheatsheets</li>
-                    </ul>
-                </div>
-                <div class="edlst_elem">
-                    <div class="elemdv">
-                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/setprepicon.svg" alt="Icon" width="40" height="40">
+                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/mocks.svg" alt="Icon" width="40" height="40">
                     </div>
                     <h3>Real Practice &<br> Mocks</h3>
                     <ul>
-                        <li>QBank 1000+ practice questions</li>
-                        <li>Chapter-wise practice sets</li>
-                        <li>Real-time Full-length Mocks</li>
+                        <li>QBank 1000+ Practice Questions</li>
+                        <li>Chapter-wise Practice Sets</li>
+                        <li>Full-Length Timed Mocks</li>
+                    </ul>
+                </div>
+                <div class="edlst_elem">
+                    <div class="elemdv">
+                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/study-material.svg" alt="Icon" width="40" height="40">
+                    </div>
+                    <h3>Comprehensive<br> Study Material</h3>
+                    <ul>
+                        <li>Complete SAT Guide</li>
+                        <li>Smart Strategy Playbook</li>
+                        <li>Flashcards & Cheat Sheets</li>
                     </ul>
                 </div>
             </div>
@@ -203,9 +197,9 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">All Live Online Prep Includes</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Everything You Get with Our PSAT Prep</h2>
 
-            <div class="online_prep rflx">
+            <div class="online_prep rflx" data-aos="fade-up">
                 <div class="online_img">
                     <div class="imgsin">
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/online-prep.svg" alt="Online Perp" width="528" height="472">
@@ -215,31 +209,27 @@
                     <ul class="opntrs">
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>18 hours of live instruction</h4>
+                            <h4>Eight topic-specific quizzes</h4>
                         </li>
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>2+ teachers per class</h4>
+                            <h4>Easy-to-use, on-demand platform accessible anytime, anywhere</h4>
                         </li>
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>Led by 99th-percentile scorers</h4>
+                            <h4>PSAT content developed by experienced instructors</h4>
                         </li>
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>Digital performance dashboard</h4>
+                            <h4>Comprehensive review of all test-taking strategies</h4>
                         </li>
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>4 Adaptive Digital SAT Practice Tests</h4>
+                            <h4>Video lessons covering highest-yield topics</h4>
                         </li>
                         <li>
                             <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>A comprehensive QBank that contains over 500 realistic SAT questions</h4>
-                        </li>
-                        <li>
-                            <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick icon">
-                            <h4>Access to on-demand lessons</h4>
+                            <h4>Access to KapAdvisor, your virtual college admissions counselor</h4>
                         </li>
                     </ul>
                 </div>
@@ -248,20 +238,20 @@
     </section>
 
     <!-- Price table -->
-    <section>
+    <section id="programs">
         <div class="container">
-            <div class="hdng text-center">
-                <h2 class="blue_mnhdng">SAT Programs at EduEdge Pro</h2>
-                <p>At EduEdge Pro, we specialize in helping students ace the Each plan includes strategic test-taking techniques, real-time performance tracking, and tailored study schedules, ensuring you get the right level of support to achieve your target score.</p>
+            <div class="hdng text-center" data-aos="fade-up">
+                <h2 class="blue_mnhdng">Find the Right PSAT Plan for You</h2>
+                <p>At EduEdge Pro, we specialize in helping students excel on the PSAT. Each plan is designed with high-impact strategies, real-time progress tracking, and personalized study schedules giving you the right level of support to reach your target score with confidence.</p>
             </div>
-            <div class="price_tabel">
+            <div class="price_tabel" data-aos="fade-up">
                 <div class="rflx">
                     <div class="left_hd">
                         <ul>
                             <li>Overview</li>
                             <li>Target Score Range</li>
                             <li>Tutoring Method</li>
-                            <li>Test Prep App</li>
+                            <li>Kaplan Access included</li>
                             <li>Full length Mock Tests</li>
                             <li>Unlimited Doubt Clearing</li>
                             <li>Personalized Study Plan</li>
@@ -271,57 +261,56 @@
                     <div class="right_txt">
                         <div class="mnprc">
                             <div class="prcdtl">
-                                <h3 class="prchd">Standard SAT Prep</h3>
+                                <h3 class="prchd">Kaplan Standard SAT Prep</h3>
                                 <p>Foundational guidance and 
                                     access to key resources</p>
                                 <p>1300+</p>
-                                <p>40+ hours of Group training</p>
-                                <p>Basic</p>
+                                <p>Self-paced with Kaplan on-demand SAT Prep</p>
+                                <p>Kaplan Live Online</p>
                                 <p>3</p>
-                                <p></p>
+                                <p>No. Once a week 1 hour slot</p>
                                 <p></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">50,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <p>INR<span class="fntbg">65,000</span> + GST</p>
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                             <div class="prcdtl">
-                                <h3 class="prchd">Premium SAT Prep</h3>
-                                <p>Structured, step-by-step approach, hand-holding</p>
+                                <h3 class="prchd">Comprehensive Live with Kaplan</h3>
+                                <p>Structured, step-by-step approach, hand-holding</p>
                                 <p>1450+</p>
-                                <p>60+ hours of Group training</p>
-                                <p>Premium</p>
+                                <p>Live Offline/ Online 60+ hours of Group training</p>
+                                <p>Kaplan On Demand</p>
                                 <p>6</p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">80,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <p>INR<span class="fntbg">110,000</span> + GST</p>
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                             <div class="prcdtl">
                                 <h3 class="prchd">1:1 Tutored SAT Prep</h3>
-                                <p>Personalized, 1:1 Mentorship 
-                                    with tailored strategy</p>
+                                <p>Personalized, 1:1 Mentorship with tailored strategy</p>
                                 <p>1400 - 1550+</p>
-                                <p>80+ hours of 
+                                <p>Live Offline/Online 80+ hours of 
                                     1:1 Private tutoring</p>
-                                <p>Premium, Full version</p>
+                                <p>Kaplan on Demad</p>
                                 <p>10</p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">1,45,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <p>INR<span class="fntbg">2,25,000</span> + GST</p>
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                         </div>
@@ -332,94 +321,110 @@
     </section>
     <!-- Price table -->
 
-    <!-- Accordion -->
+     <!-- Accordion -->
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Our SAT Training Approach for<br> Comprehensive Preparation</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Our Method. Your Edge.</h2>
 
-            <div class="program-faq">
+            <div class="program-faq" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <div class="accordion-item">
                         <div class="accordion-header">
                             <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                                <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/study-paln.svg" alt="Accordion Icon">
                             </div>
                             <div class="acrdhd">
-                                <h4>Diagnostic Test &<br> Customized Study Plan</h4>
+                                <h4>Personalized Prep for Maximum Impact</h4>
                             </div>
                         </div>
                         <div class="accordion-content">
-                            <p>Content for section 1.1</p>
+                            <div class="ins-content">
+                            <ul>
+                                <li>Custom study plans tailored to your strengths and goals</li>
+                                <li>Adaptive learning paths for efficient improvement</li>
+                                <li>Real-time performance tracking with targeted feedback</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
                             <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                                <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/digital-strategy.svg" alt="Accordion Icon">
                             </div>
                             <div class="acrdhd">
-                                <h4>Digital SAT Strategies &<br> Adaptive Testing</h4>
+                                <h4>Smart, Data-Driven Learning</h4>
                             </div>
                         </div>
                         <div class="accordion-content">
-                            <p>Content for section 1.1</p>
+                            <div class="ins-content">
+                            <ul>
+                                <li>Kaplan On-Demand integrated with EduEdge LMS</li>
+                                <li>AI-driven insights for focused learning</li>
+                                <li>Weekly analytics to track growth and gaps</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
                             <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                                <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/writing-material.svg" alt="Accordion Icon">
                             </div>
                             <div class="acrdhd">
-                                <h4>Reading & Writing Module</h4>
+                                <h4>Real Test Simulations</h4>
                             </div>
                         </div>
                         <div class="accordion-content">
-                            <p>Content for section 1.1</p>
+                           <div class="ins-content">
+                            <ul>
+                                <li>10+ full-length digital PSAT mock tests</li>
+                                <li>Practice with real-exam level difficulty</li>
+                                <li>Built for the new digital PSAT format</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
                             <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                                <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/math-module.svg" alt="Accordion Icon">
                             </div>
                             <div class="acrdhd">
-                                <h4>Math Module</h4>
+                                <h4>Micro Learning. Macro Results.</h4>
                             </div>
                         </div>
                         <div class="accordion-content">
-                            <p>Content for section 1.1</p>
+                            <div class="ins-content">
+                            <ul>
+                                <li>100+ bite-sized lessons for complete concept clarity</li>
+                                <li>Covers Reading, Writing, and Math modules</li>
+                                <li>Flexible, mobile-friendly content</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
                             <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                                <img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/performace-analytics.svg" alt="Accordion Icon">
                             </div>
                             <div class="acrdhd">
-                                <h4>Practice Tests &<br> Performance Analysis</h4>
+                                <h4>Flexible Formats: Live & 1:1</h4>
                             </div>
                         </div>
                         <div class="accordion-content">
-                            <p>Content for section 1.1</p>
-                        </div>
-                    </div>
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <div class="acrd-img">
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Accordion Icon">
+                            <div class="ins-content">
+                            <ul>
+                                <li>Flexible Formats: Live & 1:1</li>
+                                <li>Online and offline options available</li>
+                                <li>Dedicated mentor support throughout</li>
+                            </ul>
                             </div>
-                            <div class="acrdhd">
-                                <h4>Essay Writing (Optional,<br> for Schools Requiring It)</h4>
-                            </div>
-                        </div>
-                        <div class="accordion-content">
-                            <p>Content for section 1.1</p>
                         </div>
                     </div>
                 </div>
@@ -431,40 +436,19 @@
     <!-- testimonials -->
     <section class="greysec">
         <div class="container">
-            <h2 class="text-center blue_mnhdng">Real stories. Real results.</h2>
+            <h2 class="text-center blue_mnhdng">Our Success Stories</h2>
             <div class="testimonial-slider slick-slider">
                 <div class="item">
                     <div class="testimonialcard">
                         <div class="tstflx">
                             <div class="tstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial.jpg" alt="Testimonial" width="184" height="166">
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
                                 <p>Aindre, Mumbai</p>
                                 <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
                             <div class="tstdtls">
                                 <h4>Personalized 1:1 Tutoring Made All the Difference!</h4>
-                                <p class="tstrd">Why did I need Training from EduEdge?</p>
-                                <p>I was struggling with core concepts in various areas in my SAT preparation and needed personalized help and doubt solving.</p>
-                                <p class="tstrd">How the Training helped me</p>
-                                <p>1:1 Personalized training and mentoring by Professor Harjeet helped me clear my concepts and approach complex problems with easy frameworks. He customized my study plan based on my weaknesses, and it paid off!</p>
-                                <p class="tstrd">How was the Training</p>
-                                <p>I went from a 1280 to a 1520 with just 2 months of private tutoring.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimonialcard">
-                        <div class="vdtst">
-                            <div class="vdtstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial2.jpg" alt="Testimonial" width="480" height="310">
-                            </div>
-                            <div class="vdtstflx">
-                                <p>Abhishek, Mumbai</p>
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/gmat.svg" alt="Logo" width="95" height="40">
-                            </div>
-                            <div class="vdtstdtl">
-                                <p>Achieved 750 on my resit with a highly effective crash crash at EduEdge</p>
+                                <p>Thanks to the PSAT prep program, my score jumped by over 150 points! The practice tests were spot on, and the strategies I learned helped me manage my time and stay calm during the exam. I feel so much more confident heading into the SAT now.</p>
                             </div>
                         </div>
                     </div>
@@ -473,69 +457,60 @@
                     <div class="testimonialcard">
                         <div class="tstflx">
                             <div class="tstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial.jpg" alt="Testimonial" width="184" height="166">
-                                <p>Aindre, Mumbai</p>
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
+                                <p>Abhishek</p>
                                 <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
                             <div class="tstdtls">
-                                <h4>Personalized 1:1 Tutoring Made All the Difference!</h4>
-                                <p class="tstrd">Why did I need Training from EduEdge?</p>
-                                <p>I was struggling with core concepts in various areas in my SAT preparation and needed personalized help and doubt solving.</p>
-                                <p class="tstrd">How the Training helped me</p>
-                                <p>1:1 Personalized training and mentoring by Professor Harjeet helped me clear my concepts and approach complex problems with easy frameworks. He customized my study plan based on my weaknesses, and it paid off!</p>
-                                <p class="tstrd">How was the Training</p>
-                                <p>I went from a 1280 to a 1520 with just 2 months of private tutoring.</p>
+                                <h4>Incredible Score Improvement!</h4>
+                                <p>The instructors really understood the test format and explained every concept so clearly. They didn’t just teach the answers — they helped me understand the logic behind them. The grammar tips and reading hacks were game-changers!</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="testimonialcard">
-                        <div class="vdtst">
-                            <div class="vdtstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial2.jpg" alt="Testimonial" width="480" height="310">
+                        <div class="tstflx">
+                            <div class="tstimg">
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
+                                <p>Preeti</p>
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
-                            <div class="vdtstflx">
-                                <p>Abhishek, Mumbai</p>
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/gmat.svg" alt="Logo" width="95" height="40">
-                            </div>
-                            <div class="vdtstdtl">
-                                <p>Achieved 750 on my resit with a highly effective crash crash at EduEdge</p>
+                            <div class="tstdtls">
+                                <h4>Expert Instructors Who Care!</h4>
+                                <p>Before this course, I didn’t even know where to begin with PSAT prep. Now I not only know what to expect but also feel prepared for college-level testing. The program made everything less overwhelming and way more
+                                    manageable.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="seeall text-center">
+            <!-- <div class="seeall text-center">
                 <a href="#" class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- testimonials -->
 
-    <!-- Tabs with accordion -->
+     <!-- Tabs with accordion -->
     <section>
         <div class="container">
-            <h2 class="text-center blue_mnhdng">FAQs</h2>
-            <div class="faqsection">
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">FAQs</h2>
+            <div class="faqsection" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What SAT prep courses do you offer?</h3>
+                            <h3>What does the self-paced PSAT program include?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <h4>We offer multiple SAT prep options:</h4>
-                                <p><strong>Self-Paced Course – </strong>Flexible, on-demand video lessons and practice questions.</p>
-                                <p><strong>Live Online Course – </strong>Interactive, instructor-led classes with structured study plans.</p>
-                                <p><strong>One-on-One Tutoring – </strong>Personalized coaching for targeted improvement.</p>
-                                <p><strong>Crash Course – </strong>Intensive, short-term prep for last-minute test-takers.</p>
+                                <p>The program includes 100+ micro lessons, Kaplan On-Demand access, chapter-wise practice, 1,000+ questions, full-length mock tests, and a personalized study planner.</p>
                             </div>
                         </div>
                     </div>
@@ -543,76 +518,57 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How long do the SAT prep courses last?</h3>
+                            <h3>Who is this course ideal for?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>This format is best for students who prefer to learn independently, manage their own schedule, and want the flexibility to study at their own pace.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Are full-length SAT practice tests included?</h3>
+                            <h3>Is the content aligned with the new digital PSAT format?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Absolutely. All lessons and tests are designed to reflect the latest digital PSAT pattern, including adaptive testing and updated question types.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Do you provide official SAT study materials?</h3>
+                            <h3>How long will I have access to the course?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>You’ll typically have 6 to 12 months of access, depending on the plan. Extensions are available on request.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>Can I switch between packages after enrolling?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>What if I miss a live session?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>Is there a free trial or demo?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>How do I enroll?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
+                   
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Tabs with accordion -->
 
-    <!-- Sticky footer -->
-    <?php include '../../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
+    <!-- Footer -->
+    <?php include '../../components/top_holisftr.php'; ?>
+    <!-- Footer -->
 
     <!-- Footer -->
     <?php include '../../components/footer.php'; ?>

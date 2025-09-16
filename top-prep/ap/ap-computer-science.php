@@ -4,7 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Computer Science</title>
+    <title>AP Computer Science | EduEdge Pro</title>
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="AP Computer Science | EduEdge Pro">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+    <meta property="og:url" content="https://eduedgepro.com/top-prep/ap/ap-computer-science.php">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AP Computer Science | EduEdge Pro">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <?php include '../../style_css.php'; ?>
 </head>
 
@@ -17,11 +28,11 @@
     <div class="satbanner">
         <div class="prp-banner">
         <picture>
-            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg">
-            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/satprep/satmb.jpg">
-            <img src="<?php echo $base_url; ?>assets/imgs/satprep/banner.jpg" alt="Banner" class="bannerimg" width="1440" height="768">
+            <source media="(min-width: 769px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/comp-sci.webp">
+            <source media="(max-width: 768px)" srcset="<?php echo $base_url; ?>assets/imgs/top-prep/ap/cs-mb.webp">
+            <img src="<?php echo $base_url; ?>assets/imgs/top-prep/ap/comp-sci.webp" alt="Banner" class="bannerimg" width="1440" height="768">
         </picture>
-        <div class="baner_botom">
+        <div class="baner_botom white_clr">
                 <p>Powered by Proven Kaplan Pedagogy</p>
                 <p>Mentorship by Ivy-League Experts</p>
             </div>
@@ -57,16 +68,16 @@
             <div class="satflx">
                 <div class="bannerlft">
                     <div class="baner-dtls">
-                        <h1>Boost your Application<br> with a great AP score!</h1>
-                        <p>We will help you raise your AP score by atleast 150 points!</p>
-                        <a class="white-btn">
+                        <h1>Code Smart. Score Higher.</h1>
+                        <p>Personalized mentoring, real test drills, and a 2+ point score boost</p>
+                        <a class="white-btn" href="#programs">
                             <span>View Our Courses</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
                         </a>
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/truspilot.svg" alt="Trust Pilot" width="281" height="40">
-                        <small>Based on <span class="underline">5,931 reviews</span></small>
+                        <a class="revlnk" href="https://www.trustpilot.com/review/kaptest.com?utm_medium=trustbox&utm_source=Carousel" target="_blank">Based on <span class="underline">5,931 reviews</span></a>
                     </div>
                 </div>
                 <div class="bannergt">
@@ -81,57 +92,113 @@
     </div>
     <!-- banner -->
 
-    <section class="greysec">
+    <section class="greysec" id="programs">
         <div class="container">
-            <div class="kplna-card">
-                <div class="crd_kpln">
-                    <div class="klpn_imgLogo">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
-                    </div>
-                    <div class="crd_tl">
-                        <h2>kaplan Live<br> Online SAT</h2>
-                        <p>Course Features</p>
-                    </div>
+            <!-- <h2 class="blue_mnhdng text-center">Prep Your Way to Top SAT Scores</h2> -->
+            <div class="prep_plans slick-slider" data-aos="fade-up">
+                
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">Online / Offline</small>
+                    <h3>EduEdge AP Computer Science Comprehensive Live with Kaplan Integrated</h3>
+                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>18 hours of immersive live instruction</li>
-                            <li>Learn from 99th-percentile-scoring SAT teachers</li>
-                            <li>2+ teachers per class</li>
-                            <li>4 realistic SAT practice tests</li>
-                            <li>Comprehensive QBank of 500+ SAT questions</li>
-                            <li>Includes a digital performance dashboard</li>
+                            <li>120+ hours of structured live group training (offline/online)</li>
+                            <li>Step-by-step instruction with academic hand-holding</li>
+                            <li>Kaplan Live Online AP CS Prep access</li>
+                            <li>10 full-length AP mock tests</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                            <li>Target Score Range: 3–4</li>
                         </ul>
                     </div>
-                    <a href="#" class="secondary-btn">
-                        <span>Buy Now</span>
+                    <p class="satprice">From:<strong> INR 130,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
-                <!--  -->
-                <div class="kpln_dtlimg">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
+                <!-- Plans -->
+                 <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Computer Science 1:1 Private Tutoring with Kaplan Integrated</h3>
+                    <div class="crd-points">
+                        <ul>
+                            <li>160+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>Personalized mentoring with a tailored study strategy</li>
+                            <li>Kaplan On-Demand AP CS Prep included</li>
+                            <li>4 full-length AP mock tests</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Exhaustive study material</li>
+                            <li>Target Score Range: 4–5</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 220,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
                 </div>
-            </div>
+                <!-- Plans -->
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">Self-paced</small>
+                    <h3>Kaplan AP Computer Science Live Online</h3>
+                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Self-paced, on-demand AP CS Prep with Kaplan</li>
+                            <li>Foundational guidance and structured learning path</li>
+                            <li>Kaplan On-Demand content access</li>
+                            <li>6 full-length AP mock tests</li>
+                            <li>Weekly 1-hour doubt-clearing sessions</li>
+                            <li>Personalized study plan</li>
+                            <li>High-quality Kaplan study material</li>
+                            <li>Target Score Range: 5</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 395,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+            <!-- <div class="seeall">
+                <a href="#" class="secondary-btn">
+                    <span>View All</span>
+                    <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div> -->
         </div>
     </section>
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Where AP Bio Makes a Difference</h2>
-            <div class="bio-dfrnc">
-                <div class="dfrnc_lft">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/biology/bio-lab.webp" alt="Bio Lab Images" width="528" height="544">
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Code your edge. Power your future.</h2>
+            <div class="bio-dfrnc" data-aos="fade-up">
+                <div class="dfrnc_lft chem_lft">
+                    <img src="<?php echo $base_url; ?>assets/imgs/top-prep/ap/comp-thumb.webp" alt="Bio Lab Images" width="528" height="544">
                 </div>
                 <div class="dfrnc_rgt">
                     <div class="lab_column">
-                        <h5>Health, Medicine & Life Sciences</h5>
-                        <p>From <strong>nursing</strong> and <strong>pharmacy</strong> to <strong>biomedical</strong> and <strong>biochemistry</strong> majors, AP Bio covers essential topics like <strong>genetics, cell biology, immunology,</strong> and <strong>biotech.</strong></p>
+                        <h5>Technology, Business & Engineering</h5>
+                        <p>AP Computer Science opens doors to careers in software development, AI, robotics, cybersecurity, blockchain, fintech, and engineering—skills that power innovation in every industry.</p>
                     </div>
                     <div class="lab_column">
-                        <h5>Environment & Behavior</h5>
-                        <p>Explore <strong>ecosystems,</strong> biodiversity, and <strong>the biology of behavior</strong>—a great fit for <strong>ecology, conservation,</strong> and <strong>psychology</strong> pathways.</p>
+                        <h5>Emerging Tech & Interdisciplinary Fields</h5>
+                        <p>It also lays the foundation for fields like HealthTech, EdTech, smart cities, environmental informatics, and behavioral sciences—where coding meets real-world problem-solving.</p>
                     </div>
                 </div>
             </div>
@@ -140,95 +207,163 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Master these areas and topic</h2>
-            <div class="top_faqs" data-accordion>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Master these areas and topic</h2>
+            <div class="top_faqs" data-accordion data-aos="fade-up">
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>Using Objects</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Learn to create and use String, Scanner, Math, and custom objects</li>
+                                <li>Use constructors and dot notation</li>
+                                <li>Understand method calls and return values</li>
+                                <li>Use libraries and API documentation</li>
+                                <li>Understand object references vs. primitive values</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cell Structure and<br> Function</h4>
+                        <h4>Boolean Expressions and if Statements</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Construct boolean expressions using ==, !=, >, <, &&, ||</li>
+                                <li>Use if, if-else, and nested if statements</li>
+                                <li>Understand De Morgan’s Laws</li>
+                                <li>Use relational and logical operators</li>
+                                <li>Evaluate truth tables and short-circuit logic</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cellular<br> Energetics</h4>
+                        <h4>Primitive Types</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Understand data types: int, double, boolean, etc.</li>
+                                <li>Declare and initialize variables</li>
+                                <li>Perform arithmetic operations</li>
+                                <li>Understand integer division and type casting</li>
+                                <li>Use constants and follow naming conventions</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Cell Communication<br> and the Cell Cycle </h4>
+                        <h4>Iteration</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Use for, while, and do-while loops</li>
+                                <li>Understand loop control and infinite loops</li>
+                                <li>Nest loops and analyze time complexity</li>
+                                <li>Use counters, accumulators, and loop invariants</li>
+                                <li>Apply iteration to solve algorithmic problems</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Heredity</h4>
+                        <h4>Arrays</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Declare, initialize, and traverse 1D / 2D arrays</li>
+                                <li>Use enhanced for-each loop</li>
+                                <li>Perform array operations: search, modify, sum, average</li>
+                                <li>Understand off-by-one errors and array bounds</li>
+                                <li>Apply arrays in practical coding scenarios</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Gene Expression<br> and Regulation</h4>
+                        <h4>Writing Classes</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <ul>
+                            <li>Understand class structure: fields, constructors, methods</li>
+                            <li>Create and use instance variables</li>
+                            <li>Implement constructors with parameters</li>
+                            <li>Use this keyword</li>
+                            <li>Encapsulate data using access modifiers (private, public)</li>
+                        </ul>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Natural Selection</h4>
+                        <h4>ArrayList</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Use ArrayList methods: add, get, set, remove, size</li>
+                                <li>Iterate using both index and enhanced for-loops</li>
+                                <li>Compare ArrayLists vs. arrays</li>
+                                <li>Dynamically add/remove elements</li>
+                                <li>Handle wrapper classes (Integer, Double)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>Review & AP Exam Strategies</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Comprehensive review of CS Essentials and CS A topics.</li>
+                                <li>Practice with past AP questions (MCQs + FRQs).</li>
+                                <li>Time management techniques</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
                 <!--  -->
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h4>Chemistry of Life</h4>
+                        <h4>Inheritance</h4>
                     </div>
                     <div class="accordion-content">
-                        <p>Accordion content</p>
+                        <div class="acrd-ans">
+                            <ul>
+                                <li>Understand superclass and subclass relationships</li>
+                                <li>Use extends keyword</li>
+                                <li>Override methods and use super</li>
+                                <li>Apply polymorphism and dynamic binding</li>
+                                <li>Implement is-a relationships and hierarchy design</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--  -->
@@ -239,21 +374,17 @@
     <!-- Tabs with accordion -->
     <section>
         <div class="container">
-            <h2 class="text-center blue_mnhdng">FAQs</h2>
-            <div class="faqsection">
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">FAQs</h2>
+            <div class="faqsection" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What SAT prep courses do you offer?</h3>
+                            <h3>What’s the difference between AP Computer Science A and AP Computer Science Principles (Essentials)?</h3>
                         </div>
                         <div class="accordion-content">
                             <div class="acrd-ans">
-                                <h4>We offer multiple SAT prep options:</h4>
-                                <p><strong>Self-Paced Course – </strong>Flexible, on-demand video lessons and practice questions.</p>
-                                <p><strong>Live Online Course – </strong>Interactive, instructor-led classes with structured study plans.</p>
-                                <p><strong>One-on-One Tutoring – </strong>Personalized coaching for targeted improvement.</p>
-                                <p><strong>Crash Course – </strong>Intensive, short-term prep for last-minute test-takers.</p>
+                                <p>AP CS A focuses on Java programming and problem-solving, while CS Principles (Essentials) introduces foundational computing concepts, logic, and applications—ideal for beginners.</p>
                             </div>
                         </div>
                     </div>
@@ -261,144 +392,81 @@
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>How long do the SAT prep courses last?</h3>
+                            <h3> Do I need prior coding experience to take AP CS?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>No prior experience is required. Our program starts with the basics and builds up to advanced programming and algorithmic thinking.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Are full-length SAT practice tests included?</h3>
+                            <h3>What programming language is used in AP CS A?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Java is the primary language used in AP Computer Science A, and it’s a great foundation for future coding and software development.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Do you provide official SAT study materials?</h3>
+                            <h3>What score do I need for college credit?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>Most colleges award credit for scores of 4 or 5, but some may accept a 3. It’s best to check individual college policies.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>Can I switch between packages after enrolling?</h3>
+                            <h3>How does EduEdge help improve my AP CS score?</h3>
                         </div>
-                        <div class="accordion-content"></div>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>We offer personalized 1:1 tutoring, Kaplan’s on-demand materials, mock exams, and real test simulations to help students boost their scores by at least 2 points.</p>
+                            </div>
+                        </div>
                     </div>
                     <!--  -->
                     <!--  -->
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>What if I miss a live session?</h3>
+                            <h3>What careers does AP Computer Science support?</h3>
                         </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>Is there a free trial or demo?</h3>
+                        <div class="accordion-content">
+                            <div class="acrd-ans">
+                                <p>AP CS sets the stage for careers in software engineering, AI, robotics, cybersecurity, web development, data science, and emerging fields like HealthTech and behavioral AI.</p>
+                            </div>
                         </div>
-                        <div class="accordion-content"></div>
-                    </div>
-                    <!--  -->
-                    <!--  -->
-                    <div class="accordion-item">
-                        <div class="accordion-header">
-                            <h3>How do I enroll?</h3>
-                        </div>
-                        <div class="accordion-content"></div>
                     </div>
                     <!--  -->
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
 
         </div>
     </section>
     <!-- Tabs with accordion -->
-    <section>
-        <div class="container">
-            <div class="prsnlz">
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
 
-                    <h3>Highest<br>
-                        Personalization.</h3>
-                    <p>Be Your Best Version.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Academic<br>
-                        Excellence.</h3>
-                    <p>Achieve subject mastery beyond curriculum.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-                    <h3>Trained by<br>
-                        the Best.</h3>
-                    <p>Bring out your Best.</p>
-                </div>
-                <div class="prsnlz_dv">
-                    <div class="prsnlz_img">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/global.svg" alt="Global">
-                    </div>
-
-                    <h3>Holistic<br>
-                        Development.</h3>
-                    <p>Empowering You for a strong application.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footerstrip -->
-    <div class="footer_strip">
-        <div class="strip active">
-            <span>Keep Exploring</span>
-        </div>
-        <div class="strip">
-            <span>Test Prep</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Study Abroad</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="strip">
-            <span>Sucess Story</span>
-            <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-            </svg>
-        </div>
-    </div>
-    <!-- footerstrip -->
-
-
-    <!-- Sticky footer -->
-    <?php include '../../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
+    <!-- TOP PREP Holistic footer -->
+     <?php include '../../components/top_holisftr.php';?>
+    <!-- TOP PREP Holistic footer -->
 
     <!-- Footer -->
     <?php include '../../components/footer.php'; ?>

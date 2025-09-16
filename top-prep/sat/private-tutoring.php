@@ -4,12 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAT Private Tutoring</title>
+    <title>Private Tutoring | EduEdge Pro</title>
+    <meta name="description" content="">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Private Tutoring | EduEdge Pro">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+  <meta property="og:url" content="https://eduedgepro.com/top-prep/sat/private-tutoring.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Private Tutoring | EduEdge Pro">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->
      <style>
-        .pt_active{color: var(--title);font-weight: bold;}
+        .pt_active{color: var(--primary) !important;}
      </style>
 </head>
 
@@ -59,14 +70,14 @@
                     <div class="baner-dtls">
                         <h1>One-on-One SAT Tutoring<br> For Top Results</h1>
                         <p>Flexible scheduling. Expert mentors. 10 full-length tests.</p>
-                        <a class="white-btn">
+                        <a class="white-btn" href="#programs">
                             <span>Explore Our Programs</span>
                             <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                             </svg>
                         </a>
                         <img src="<?php echo $base_url; ?>assets/imgs/satprep/truspilot.svg" alt="Trust Pilot" width="281" height="40">
-                        <small>Based on <span class="underline">5,931 reviews</span></small>
+                        <a class="revlnk" href="https://www.trustpilot.com/review/kaptest.com?utm_medium=trustbox&utm_source=Carousel" target="_blank">Based on <span class="underline">5,931 reviews</span></a>
                     </div>
                 </div>
                 <div class="bannergt">
@@ -84,7 +95,7 @@
     <section class="greysec">
         <div class="container">
             <div class="kplna-card">
-                <div class="crd_kpln">
+                <div class="crd_kpln" data-aos="fade-left">
                 <div class="klpn_imgLogo">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
@@ -103,16 +114,16 @@
                             <li>Mentoring by Ivy League experts</li>
                         </ul>
                     </div>
-                    <a href="#" class="secondary-btn">
+                    <!-- <a href="#" class="secondary-btn">
                         <span>Buy Now</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
                 <!--  -->
-                <div class="kpln_dtlimg">
-                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
+                <div class="kpln_dtlimg" data-aos="fade-right">
+                    <img src="<?php echo $base_url; ?>assets/imgs/satprep/private-course-card.webp" class="covimg" alt="Biology">
                 </div>
                 <!--  -->
                 <!-- <div class="crd_kpln">
@@ -147,10 +158,10 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">What You Get with Us</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">What You Get with Us</h2>
 
 
-            <div class="edlsit">
+            <div class="edlsit" data-aos="fade-up">
                 <div class="edlst_elem">
                     <div class="kplndv">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Icon" width="177" height="60">
@@ -169,7 +180,7 @@
                     </div>
                     <h3>Learn from the<br> Best Tutors</h3>
                     <ul>
-                        <li>99+ percentile Scorers</li>
+                        <li>99+ Percentile Scorers</li>
                         <li>Ivy League Alumni Trainers</li>
                         <li>Expert Faculty Across Domains</li>
                     </ul>
@@ -192,7 +203,7 @@
                     </div>
                     <h3>Real Practice &<br> Mocks</h3>
                     <ul>
-                        <li>QBank 1000+ Practice Questions</li>
+                        <li>QBank with 1000+ Practice Questions</li>
                         <li>Chapter-wise Practice Sets</li>
                         <li>Full-Length Timed Mocks</li>
                     </ul>
@@ -214,12 +225,12 @@
 
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Everything You Get with Live Online Prep</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Everything You Get with Private Tutoring</h2>
 
-            <div class="online_prep rflx">
+            <div class="online_prep rflx" data-aos="fade-up">
                 <div class="online_img">
                     <div class="imgsin">
-                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/online-prep.svg" alt="Online Perp" width="528" height="472">
+                        <img src="<?php echo $base_url; ?>assets/imgs/satprep/private-online-prep.webp" alt="Online Perp" width="528" height="472">
                     </div>
                 </div>
                 <div class="online_points">
@@ -259,13 +270,13 @@
     </section>
 
     <!-- Price table -->
-    <section>
+    <section id="programs" class="private-plan">
         <div class="container">
-            <div class="hdng text-center">
+            <div class="hdng text-center" data-aos="fade-up">
                 <h2 class="blue_mnhdng">Find the Right SAT Plan for You</h2>
                 <p>At EduEdge Pro, we specialize in helping students ace the Each plan includes strategic test-taking techniques, real-time performance tracking, and tailored study schedules, ensuring you get the right level of support to achieve your target score.</p>
             </div>
-            <div class="price_tabel">
+            <div class="price_tabel" data-aos="fade-up">
                 <div class="rflx">
                     <div class="left_hd">
                         <ul>
@@ -294,9 +305,9 @@
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
                                     <p>INR<span class="fntbg">65,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                             <div class="prcdtl">
@@ -311,9 +322,9 @@
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
                                     <p>INR<span class="fntbg">110,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                             <div class="prcdtl">
@@ -322,16 +333,16 @@
                                 <p>1400 - 1550+</p>
                                 <p>Live Offline/Online 80+ hours of 
                                     1:1 Private tutoring</p>
-                                <p>Kaplan on Demad</p>
+                                <p>Kaplan on Demand</p>
                                 <p>10</p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
                                     <p>INR<span class="fntbg">2,25,000</span> + GST</p>
-                                    <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                                        </svg></button>
+                                        </svg></button> -->
                                 </div>
                             </div>
                         </div>
@@ -345,9 +356,9 @@
     <!-- Accordion -->
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center">Our Method. Your Edge.</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Our Method. Your Edge.</h2>
 
-            <div class="program-faq">
+            <div class="program-faq" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <div class="accordion-item">
                         <div class="accordion-header">
@@ -471,16 +482,16 @@
     </section>
     <!-- Accordion -->
 
-    <!-- testimonials -->
+     <!-- testimonials -->
     <section class="greysec">
         <div class="container">
-            <h2 class="text-center blue_mnhdng">Real stories. Real results.</h2>
+            <h2 class="text-center blue_mnhdng">Our Success Stories</h2>
             <div class="testimonial-slider slick-slider">
                 <div class="item">
                     <div class="testimonialcard">
                         <div class="tstflx">
                             <div class="tstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial.jpg" alt="Testimonial" width="184" height="166">
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
                                 <p>Aindre, Mumbai</p>
                                 <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
@@ -492,22 +503,6 @@
                                 <p>1:1 Personalized training and mentoring by Professor Harjeet helped me clear my concepts and approach complex problems with easy frameworks. He customized my study plan based on my weaknesses, and it paid off!</p>
                                 <p class="tstrd">How was the Training</p>
                                 <p>I went from a 1280 to a 1520 with just 2 months of private tutoring.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimonialcard">
-                        <div class="vdtst">
-                            <div class="vdtstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial2.jpg" alt="Testimonial" width="480" height="310">
-                            </div>
-                            <div class="vdtstflx">
-                                <p>Abhishek, Mumbai</p>
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/gmat.svg" alt="Logo" width="95" height="40">
-                            </div>
-                            <div class="vdtstdtl">
-                                <p>Achieved 750 on my resit with a highly effective crash crash at EduEdge</p>
                             </div>
                         </div>
                     </div>
@@ -516,47 +511,39 @@
                     <div class="testimonialcard">
                         <div class="tstflx">
                             <div class="tstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial.jpg" alt="Testimonial" width="184" height="166">
-                                <p>Aindre, Mumbai</p>
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
+                                <p>Riddhee</p>
                                 <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
                             <div class="tstdtls">
-                                <h4>Personalized 1:1 Tutoring Made All the Difference!</h4>
-                                <p class="tstrd">Why did I need Training from EduEdge?</p>
-                                <p>I was struggling with core concepts in various areas in my SAT preparation and needed personalized help and doubt solving.</p>
-                                <p class="tstrd">How the Training helped me</p>
-                                <p>1:1 Personalized training and mentoring by Professor Harjeet helped me clear my concepts and approach complex problems with easy frameworks. He customized my study plan based on my weaknesses, and it paid off!</p>
-                                <p class="tstrd">How was the Training</p>
-                                <p>I went from a 1280 to a 1520 with just 2 months of private tutoring.</p>
+                                <h4>"I started with a 1150 on my practice test, but after completing this SAT prep course, I scored a 1530! The structured lessons, timed practice tests, and expert strategies helped me stay focused and confident."</h4>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="testimonialcard">
-                        <div class="vdtst">
-                            <div class="vdtstimg">
-                                <img src="<?php echo $base_url; ?>assets/imgs/homepage/testimonial2.jpg" alt="Testimonial" width="480" height="310">
+                        <div class="tstflx">
+                            <div class="tstimg">
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/user.webp" alt="Testimonial" width="184" height="166">
+                                <p>Manushri</p>
+                                <img src="<?php echo $base_url; ?>assets/imgs/logo/satimg.svg" alt="Logo" width="95" height="40">
                             </div>
-                            <div class="vdtstflx">
-                                <p>Abhishek, Mumbai</p>
-                                <img src="<?php echo $base_url; ?>assets/imgs/logo/gmat.svg" alt="Logo" width="95" height="40">
-                            </div>
-                            <div class="vdtstdtl">
-                                <p>Achieved 750 on my resit with a highly effective crash crash at EduEdge</p>
+                            <div class="tstdtls">
+                                <h4>"I had a hard time with the Maths section, but my instructor gave great strategies that helped me improve my approach. The personalized feedback made a huge difference."</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="seeall text-center">
+            <!-- <div class="seeall text-center">
                 <a href="#" class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- testimonials -->
@@ -564,8 +551,8 @@
     <!-- Tabs with accordion -->
     <section>
         <div class="container">
-            <h2 class="text-center blue_mnhdng">FAQs</h2>
-            <div class="faqsection">
+            <h2 class="text-center blue_mnhdng" data-aos="fade-up">FAQs</h2>
+            <div class="faqsection" data-aos="fade-up">
                 <div class="accordion" data-accordion>
                     <!--  -->
                     <div class="accordion-item">
@@ -665,22 +652,21 @@
                     <!--  -->
                 </div>
             </div>
-            <div class="seeall">
+            <!-- <div class="seeall">
                 <a class="secondary-btn">
                     <span>View All</span>
                     <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                     </svg>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Tabs with accordion -->
 
-    <!-- Sticky footer -->
-    <?php include '../../components/sticky-footer.php'; ?>
-    <!-- Sticky footer -->
-
+    <!-- Footer -->
+    <?php include '../../components/top_holisftr.php'; ?>
+    <!-- Footer -->
     <!-- Footer -->
     <?php include '../../components/footer.php'; ?>
     <!-- Footer -->
