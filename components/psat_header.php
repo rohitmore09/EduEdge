@@ -1,5 +1,5 @@
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4BDK3SJ"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX89B75V"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -52,7 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><a href="<?php echo $base_url;?>top-prep/psat.php" class="ov_active">Overview</a></li>
                 <li><a href="<?php echo $base_url;?>top-prep/psat/private-tutoring.php" class="pt_active">Private Tutoring</a></li>
                 <li><a href="<?php echo $base_url;?>top-prep/psat/online-offline.php" class="cls_active">Online/Offline Classes</a></li>
-                <li><a href="<?php echo $base_url;?>top-prep/psat/self-paced.php" class="sp_active">Self Placed</a></li>
+                <li><a href="<?php echo $base_url;?>top-prep/psat/self-paced.php" class="sp_active">Self Paced</a></li>
                 <!-- <li><a href="#">SAT Prep Resources</a></li> -->
                 <!-- <li class="srchicon"><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/search.svg" alt="search-icon" width="24" height="24"></a></li> -->
                 

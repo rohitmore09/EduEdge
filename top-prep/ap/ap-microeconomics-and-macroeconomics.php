@@ -98,21 +98,20 @@
             <div class="prep_plans slick-slider" data-aos="fade-up">
                 <!-- Plans -->
                 <div class="item mnht">
-                    <small class="plantag">Online / Offline</small>
-                    <h3>EduEdge AP Economics Comprehensive Live with Kaplan Integrated</h3>
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Economics 1:1 Private Tutoring with Kaplan Integrated</h3>
                     <div class="crd-points">
                         <ul>
-                            <li>120+ hours of structured live group training</li>
-                            <li>Step-by-step guidance with academic hand-holding</li>
-                            <li>Kaplan Live Online AP Prep access</li>
-                            <li>20 full-length AP mock tests</li>
+                            <li>160+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>Personalized mentorship with tailored study strategy</li>
+                            <li>Kaplan On-Demand AP Prep included</li>
+                            <li>6 full-length AP mock tests</li>
                             <li>Unlimited doubt-clearing sessions</li>
-                            <li>Personalized study plan</li>
                             <li>Exhaustive study material</li>
-                            <li>Target Score Range: 3–4</li>
+                            <li>Target Score Range: 4–5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 130,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 450,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,12 +147,12 @@
                 <!-- Plans -->
                 <!-- Plans -->
                 <div class="item mnht">
-                    <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>Kaplan AP Economics 1:1 Private Tutoring</h3>
+                    <small class="plantag">Self-paced</small>
+                    <h3>Kaplan AP Economics Live Online</h3>
                     <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>Structured, step-by-step approach, handholding</li>
+                            <li>Foundational guidance with structured learning path</li>
                             <li>Kaplan On-Demand content access</li>
                             <li>12 full-length AP mock tests</li>
                             <li>Weekly 1-hour doubt-clearing sessions</li>
@@ -162,7 +161,7 @@
                             <li>Target Score Range: 5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 450,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 130,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">

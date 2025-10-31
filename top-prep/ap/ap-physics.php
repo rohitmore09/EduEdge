@@ -123,32 +123,6 @@
                     </a> -->
                 </div>
                 <!-- Plans -->
-                <!-- Plans -->
-                <div class="item mnht">
-                    <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>EduEdge AP Physics C 1:1 Tutoring (Mechanics & E&M)</h3>
-                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
-                    <div class="crd-points">
-                        <ul>
-                            <li>Covers AP Physics C: Mechanics and C: Electricity & Magnetism</li>
-                            <li>125+ hours of live 1:1 private tutoring (offline/online)</li>
-                            <li>High-impact prep with focus on calculus-based problem-solving</li>
-                            <li>Kaplan On-Demand AP Prep included</li>
-                            <li>4 full-length mock tests for each exam</li>
-                            <li>Unlimited doubt-clearing sessions</li>
-                            <li>Exhaustive study material</li>
-                            <li>Tailored strategy for each paper</li>
-                        </ul>
-                    </div>
-                    <p class="satprice">From:<strong> INR 345,000</strong> plus GST</p>
-                    <!-- <a href="#satbanner" class="secondary-btn">
-                        <span>Learn More</span>
-                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                    </a> -->
-                </div>
-                <!-- Plans -->
                  <!-- Plans -->
                 <div class="item mnht">
                     <small class="plantag">1:1 Private Tutoring</small>
@@ -163,6 +137,32 @@
                             <li>Unlimited doubt-clearing sessions</li>
                             <li>Exhaustive study material</li>
                             <li>Structured, step-by-step preparation</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 345,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                 <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Physics C 1:1 Tutoring (Mechanics & E&M)</h3>
+                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Covers AP Physics C: Mechanics and C: Electricity & Magnetism</li>
+                            <li>125+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>High-impact prep with focus on calculus-based problem-solving</li>
+                            <li>Kaplan On-Demand AP Prep included</li>
+                            <li>4 full-length mock tests for each exam</li>
+                            <li>Unlimited doubt-clearing sessions</li>
+                            <li>Exhaustive study material</li>
+                            <li>Tailored strategy for each paper</li>
                         </ul>
                     </div>
                     <p class="satprice">From:<strong> INR 565,000</strong> plus GST</p>

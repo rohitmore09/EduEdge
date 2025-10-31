@@ -97,58 +97,8 @@
         <div class="container">
             <!-- <h2 class="blue_mnhdng text-center">Prep Your Way to Top SAT Scores</h2> -->
             <div class="prep_plans slick-slider" data-aos="fade-up">
-                <!-- Plans -->
-                <div class="item mnht">
-                    <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>AP Prep – 1:1 Private Tutoring with Kaplan integrated</h3>
-                    <!-- <p>SAT Prep On Demand<br>Raise your SAT score by at least <span class="grnclr">100 points!</span> — on your schedule.</p> -->
-                    <div class="crd-points">
-                        <ul>
-                            <li>Target Score Range: 5</li>
-                            <li>Live Offline / Online</li>
-                            <li>160+ hours of 1:1 private tutoring</li>
-                            <li>Kaplan On Demand access</li>
-                            <li>6 full-length mock tests</li>
-                            <li>Unlimited doubt clearing</li>
-                            <li>Personalized study plan</li>
-                            <li>Exhaustive study material</li>
-                        </ul>
-                    </div>
-                    <!-- <p class="satprice">From:<strong> INR 20,000</strong> plus GST</p> -->
-                    <!-- <a href="#satbanner" class="secondary-btn">
-                        <span>Learn More</span>
-                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                    </a> -->
-                </div>
-                <!-- Plans -->
-                <!-- Plans -->
-                <div class="item mnht">
-                    <small class="plantag">Classroom / Live Online</small>
-                    <h3>AP Prep – Comprehensive Live with Kaplan integrated</h3>
-                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
-                    <div class="crd-points">
-                        <ul>
-                            <li>Target Score Range: 4–5</li>
-                            <li>Live Offline / Online</li>
-                            <li>120+ hours of group training</li>
-                            <li>Kaplan Live Online access</li>
-                            <li>20 full-length mock tests</li>
-                            <li>Unlimited doubt clearing</li>
-                            <li>Personalized study plan</li>
-                            <li>Exhaustive study material</li>
-                        </ul>
-                    </div>
-                    <!-- <p class="satprice">From:<strong> INR 65,000</strong> plus GST</p> -->
-                    <!-- <a href="#satbanner" class="secondary-btn">
-                        <span>Learn More</span>
-                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                    </a> -->
-                </div>
-                <!-- Plans -->
+                
+                
                 <!-- Plans -->
                 <div class="item mnht">
                     <small class="plantag">Online</small>
@@ -165,7 +115,59 @@
                             <li>Exhaustive study material</li>
                         </ul>
                     </div>
-                    <!-- <p class="satprice">From:<strong> INR 110,000</strong> plus GST</p> -->
+                    <p class="satprice">From:<strong> INR 130,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                 <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">Self Paced</small>
+                    <h3>AP Prep – Comprehensive Live with Kaplan integrated</h3>
+                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 4–5</li>
+                            <li>Live Offline / Online</li>
+                            <li>120+ hours of group training</li>
+                            <li>Kaplan Live Online access</li>
+                            <li>20 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 220,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                 <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>AP Prep – 1:1 Private Tutoring with Kaplan integrated</h3>
+                    <!-- <p>SAT Prep On Demand<br>Raise your SAT score by at least <span class="grnclr">100 points!</span> — on your schedule.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>Target Score Range: 5</li>
+                            <li>Live Offline / Online</li>
+                            <li>160+ hours of 1:1 private tutoring</li>
+                            <li>Kaplan On Demand access</li>
+                            <li>6 full-length mock tests</li>
+                            <li>Unlimited doubt clearing</li>
+                            <li>Personalized study plan</li>
+                            <li>Exhaustive study material</li>
+                        </ul>
+                    </div>
+                    <p class="satprice">From:<strong> INR 450,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">

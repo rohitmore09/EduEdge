@@ -99,33 +99,8 @@
                 <!-- Plans -->
                 <div class="item mnht">
                     <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>EduEdge AP Prep 1:1 Private Tutoring with Kaplan Integrated</h3>
-                    <!-- <p>SAT Prep On Demand<br>Raise your SAT score by at least <span class="grnclr">100 points!</span> — on your schedule.</p> -->
-                    <div class="crd-points">
-                        <ul>
-                            <li>80+ hours of live 1:1 private tutoring</li>
-                            <li>Kaplan “On Demand” AP Prep Course</li>
-                            <li>Personalized study strategy with Ivy League mentorship</li>
-                            <li>4 full-length AP mock tests</li>
-                            <li>Unlimited doubt-solving sessions</li>
-                            <li>Exhaustive AP study material</li>
-                            <li>Target Score Range: 4–5</li>
-                        </ul>
-                    </div>
-                    <p class="satprice"><strong> INR 1,95,000</strong> plus GST</p>
-                    <!-- <a href="#satbanner" class="secondary-btn">
-                        <span>Learn More</span>
-                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                        </svg>
-                    </a> -->
-                </div>
-                <!-- Plans -->
-                <!-- Plans -->
-                <div class="item mnht">
-                    <small class="plantag">Classroom / Live Online</small>
                     <h3>EduEdge AP Prep Comprehensive Live with Kaplan Integrated</h3>
-                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
+                    <!-- <p>SAT Prep On Demand<br>Raise your SAT score by at least <span class="grnclr">100 points!</span> — on your schedule.</p> -->
                     <div class="crd-points">
                         <ul>
                             <li>60+ hours of live group training</li>
@@ -148,9 +123,9 @@
                 <!-- Plans -->
                 <!-- Plans -->
                 <div class="item mnht">
-                    <small class="plantag">Online</small>
+                    <small class="plantag">Online / Offline</small>
                     <h3>Kaplan AP Prep Live Online</h3>
-                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
                             <li>Self-paced AP Prep with Kaplan Live Online</li>
@@ -162,7 +137,32 @@
                             <li>Target Score Range: 5</li>
                         </ul>
                     </div>
-                    <p class="satprice"><strong> INR 1,10,000</strong> plus GST</p>
+                    <p class="satprice"><strong> INR 110,000</strong> plus GST</p>
+                    <!-- <a href="#satbanner" class="secondary-btn">
+                        <span>Learn More</span>
+                        <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </a> -->
+                </div>
+                <!-- Plans -->
+                <!-- Plans -->
+                <div class="item mnht">
+                    <small class="plantag">1:1 Private</small>
+                    <h3>EduEdge AP Prep 1:1 Private Tutoring with Kaplan Integrated</h3>
+                    <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
+                    <div class="crd-points">
+                        <ul>
+                            <li>80+ hours of live 1:1 private tutoring</li>
+                            <li>Kaplan “On Demand” AP Prep Course</li>
+                            <li>Personalized study strategy with Ivy League mentorship</li>
+                            <li>4 full-length AP mock tests</li>
+                            <li>Unlimited doubt-solving sessions</li>
+                            <li>Exhaustive AP study material</li>
+                            <li>Target Score Range: 4-5</li>
+                        </ul>
+                    </div>
+                    <p class="satprice"><strong> INR 195,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">

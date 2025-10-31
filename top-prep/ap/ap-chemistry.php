@@ -98,22 +98,21 @@
                
                 <!-- Plans -->
                 <div class="item rnht">
-                    <small class="plantag">Online / Offline</small>
-                    <h3>EduEdge AP Prep Comprehensive Live with Kaplan Integrated</h3>
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Prep 1:1 Private Tutoring with Kaplan Integrated</h3>
                     <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>60+ hours of structured live group sessions</li>
-                            <li>Kaplan Live Online AP Prep Course</li>
-                            <li>Step-by-step guidance and peer collaboration</li>
-                            <li>10 full-length AP mock tests</li>
+                            <li>80+ hours of live 1:1 private tutoring</li>
+                            <li>Kaplan "On Demand" AP Prep Course</li>
+                            <li>Personalized study strategy with Ivy League mentorship</li>
+                            <li>4 full-length AP mock tests</li>
                             <li>Unlimited doubt-solving sessions</li>
-                            <li>Personalized study plan</li>
                             <li>Exhaustive AP study material</li>
-                            <li>Target Score Range: 3–4</li>
+                            <li>Target Score Range: 4–5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 65,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 195,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,18 +125,18 @@
                 <!-- Plans -->
                 <div class="item rnht">
                     <small class="plantag">Online / Offline</small>
-                    <h3>Kaplan AP Prep Live Online (Self-Paced)</h3>
+                    <h3>EduEdge AP Prep Comprehensive Live with Kaplan Integrated</h3>
                     <!-- <p>Achieve <span class="grnclr">200+ points</span> improvement with the most complete SAT prep experience.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>Self-paced, on-demand video content with expert-led modules</li>
-                            <li>Kaplan “On Demand” AP Prep Course</li>
-                            <li>Foundational instruction with structured modules</li>
-                            <li>6 full-length AP mock tests</li>
-                            <li>Weekly 1-hour doubt-clearing sessions</li>
+                            <li>60+ hours of structured live group sessions</li>
+                            <li>Kaplan Live Online AP Prep Course</li>
+                            <li>Step-by-step guidance and peer collaboration</li>
+                            <li>10 full-length AP mock tests</li>
+                            <li>Unlimited doubt-solving sessions</li>
                             <li>Personalized study plan</li>
-                            <li>High-quality Kaplan material</li>
-                            <li>Target Score Range: 5</li>
+                            <li>Exhaustive AP study material</li>
+                            <li>Target Score Range: 3–4</li>
                         </ul>
                     </div>
                     <p class="satprice">From:<strong> INR 110,000</strong> plus GST</p>
@@ -151,20 +150,21 @@
                 <!-- Plans -->
                 <!-- Plans -->
                 <div class="item rnht">
-                    <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>EduEdge AP Prep 1:1 Private Tutoring with Kaplan Integrated</h3>
+                    <small class="plantag">Online/Offline</small>
+                    <h3>Kaplan AP Prep Live Online (Self-Paced)</h3>
                     <div class="crd-points">
                         <ul>
-                            <li>80+ hours of live 1:1 private tutoring</li>
-                            <li>Kaplan “On Demand” AP Prep Course</li>
-                            <li>Personalized study strategy with Ivy League mentorship</li>
-                            <li>4 full-length AP mock tests</li>
-                            <li>Unlimited doubt-solving sessions</li>
-                            <li>Exhaustive AP study material</li>
-                            <li>Target Score Range: 4–5</li>
+                            <li>Self-paced, on-demand video content with expert-led modules</li>
+                            <li>Kaplan �On Demand� AP Prep Course</li>
+                            <li>Foundational instruction with structured modules</li>
+                            <li>6 full-length AP mock tests</li>
+                            <li>Weekly 1-hour doubt-clearing sessions</li>
+                            <li>Personalized study plan</li>
+                            <li>High-quality Kaplan material</li>
+                            <li>Target Score Range: 5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 195,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 65,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">

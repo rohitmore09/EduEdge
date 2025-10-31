@@ -99,22 +99,21 @@
                 
                 <!-- Plans -->
                 <div class="item mnht">
-                    <small class="plantag">Online / Offline</small>
-                    <h3>EduEdge AP Calculus Comprehensive Live with Kaplan Integrated</h3>
+                    <small class="plantag">1:1 Private Tutoring</small>
+                    <h3>EduEdge AP Calculus 1:1 Private Tutoring with Kaplan Integrated</h3>
                     <!-- <p>Boost your SAT score by at least <span class="grnclr">150 points!</span> — with expert-led live sessions.</p> -->
                     <div class="crd-points">
                         <ul>
-                            <li>120+ hours of structured live group training (offline/online)</li>
-                            <li>Step-by-step instruction with academic hand-holding</li>
-                            <li>Kaplan Live Online AP Calculus Prep access</li>
-                            <li>20 full-length AP mock tests</li>
+                            <li>160+ hours of live 1:1 private tutoring (offline/online)</li>
+                            <li>Personalized mentorship with a tailored study strategy</li>
+                            <li>Kaplan On-Demand AP Calculus Prep included</li>
+                            <li>6 full-length AP mock tests</li>
                             <li>Unlimited doubt-clearing sessions</li>
-                            <li>Personalized study plan</li>
                             <li>Exhaustive study material</li>
-                            <li>Target Score Range: 3–4</li>
+                            <li>Target Score Range: 4-5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 130,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 195,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -125,20 +124,21 @@
                 <!-- Plans -->
                  <!-- Plans -->
                 <div class="item mnht">
-                    <small class="plantag">1:1 Private Tutoring</small>
-                    <h3>EduEdge AP Calculus 1:1 Private Tutoring with Kaplan Integrated</h3>
+                    <small class="plantag">Online/Offline</small>
+                    <h3>EduEdge AP Calculus Comprehensive Live with Kaplan Integrated</h3>
                     <div class="crd-points">
                         <ul>
-                            <li>160+ hours of live 1:1 private tutoring (offline/online)</li>
-                            <li>Personalized mentorship with a tailored study strategy</li>
-                            <li>Kaplan On-Demand AP Calculus Prep included</li>
-                            <li>6 full-length AP mock tests</li>
+                            <li>120+ hours of structured live group training (offline/online)</li>
+                            <li>Step-by-step instruction with academic hand-holding</li>
+                            <li>Kaplan Live Online AP Calculus Prep access</li>
+                            <li>20 full-length AP mock tests</li>
                             <li>Unlimited doubt-clearing sessions</li>
+                            <li>Personalized study plan</li>
                             <li>Exhaustive study material</li>
-                            <li>Target Score Range: 4–5</li>
+                            <li>Target Score Range: 3-4</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 220,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 110,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +164,7 @@
                             <li>Target Score Range: 5</li>
                         </ul>
                     </div>
-                    <p class="satprice">From:<strong> INR 450,000</strong> plus GST</p>
+                    <p class="satprice">From:<strong> INR 65,000</strong> plus GST</p>
                     <!-- <a href="#satbanner" class="secondary-btn">
                         <span>Learn More</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13,7 +13,7 @@
                     <li><a href="<?php echo $base_url;?>top-prep/ap.php">AP</a></li>
                     <li><a href="<?php echo $base_url;?>top-prep/act-prep.php">ACT</a></li>
                     <li><a href="#">IELTS</a></li>
-                    <li><a href="#">TOEFLE</a></li>
+                    <li><a href="#">TOEFL</a></li>
                 </ul>
             </div>
             <div class="ftr_srvlist">
@@ -50,11 +50,9 @@
                 <li>
                     <h4>Get Social</h4>
                     <ul class="socm">
-                        <!-- <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/linkedin.svg" alt="Linkedin" width="20" height="19"></a></li> -->
-                        <li><a><img src="<?php echo $base_url; ?>assets/imgs/logo/insta.svg" alt="Instagram" width="20" height="20"></a></li>
-                        <!-- <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/x.svg" alt="Twitter" width="20" height="20"></a></li>
-                        <li><a href="#"><img src="<?php echo $base_url; ?>assets/imgs/logo/yt.svg" alt="Youtube" width="20" height="20"></a></li> -->
-                        <li><a><img src="<?php echo $base_url; ?>assets/imgs/logo/fb.svg" alt="Facebook" width="20" height="20"></a></li>
+                        <li><a href="https://www.linkedin.com/company/eduedge-global/" target="_blank" alt="Linkedin" width="20" height="19"><img src="<?php echo $base_url;?>assets/imgs/logo/linkedin.svg" loading="lazy" alt="LinkedIn"></a></li>
+                        <li><a href="https://www.facebook.com/eduedge.global/" target="_blank"><img src="<?php echo $base_url; ?>assets/imgs/logo/fb.svg" loading="lazy" alt="Facebook" width="20" height="20"></a></li>
+                         <li><a href="https://www.instagram.com/eduedge.global?igsh=MTlnZjdiNDBic3B5cA==" target="_blank"><img src="<?php echo $base_url; ?>assets/imgs/logo/insta.svg" alt="Instagram" loading="lazy" width="20" height="20"></a></li>
                     </ul>
                 </li>
             </ul>
@@ -101,62 +99,62 @@
         <div class="ftr__second">
             <ul class="flgs_list">
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/usa.svg" alt="USA Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/usa.svg" loading="lazy" alt="USA Flag" width="48" height="48">
                         <h4>Study in USA</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/ire.svg" alt="Ireland Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/ire.svg" loading="lazy" alt="Ireland Flag" width="48" height="48">
                         <h4>Study in Ireland</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/aus.svg" alt="Australia Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/aus.svg" loading="lazy" alt="Australia Flag" width="48" height="48">
                         <h4>Study in Australia</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/nz.svg" alt="New Zealand Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/nz.svg" loading="lazy" alt="New Zealand Flag" width="48" height="48">
                         <h4>Study in New Zealand</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/can.svg" alt="Canada Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/can.svg" loading="lazy" alt="Canada Flag" width="48" height="48">
                         <h4>Study in Canada</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/uk.svg" alt="UK Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/uk.svg" loading="lazy" alt="UK Flag" width="48" height="48">
                         <h4>Study in UK</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/china.svg" alt="Ireland Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/china.svg" loading="lazy" alt="Ireland Flag" width="48" height="48">
                         <h4>Study in China</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kh.svg" alt="Australia Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/kh.svg" loading="lazy" alt="Australia Flag" width="48" height="48">
                         <h4>Study in Hongkong</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/jp.svg" alt="New Zealand Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/jp.svg" loading="lazy" alt="New Zealand Flag" width="48" height="48">
                         <h4>Study in Japan</h4>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="<?php echo $base_url; ?>assets/imgs/logo/eu.svg" alt="Canada Flag" width="48" height="48">
+                    <a>
+                        <img src="<?php echo $base_url; ?>assets/imgs/logo/eu.svg" loading="lazy" alt="Canada Flag" width="48" height="48">
                         <h4>Study in EU</h4>
                     </a>
                 </li>

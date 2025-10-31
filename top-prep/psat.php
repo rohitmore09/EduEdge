@@ -335,7 +335,7 @@
     <!-- Accordion -->
     <section>
         <div class="container">
-            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Our SAT Training Approach for<br> Comprehensive Preparation</h2>
+            <h2 class="blue_mnhdng text-center" data-aos="fade-up">Our PSAT Training Approach for<br> Comprehensive Preparation</h2>
 
             <div class="program-faq" data-aos="fade-up">
                 <div class="accordion" data-accordion>
@@ -544,7 +544,7 @@
                             <!--  -->
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3>HHow is the PSAT different from the SAT?</h3>
+                                    <h3>How is the PSAT different from the SAT?</h3>
                                 </div>
                                 <div class="accordion-content">
                                     <div class="acrd-ans">
@@ -587,7 +587,7 @@
                                 </div>
                                 <div class="accordion-content">
                                     <div class="acrd-ans">
-                                        <p>It can qualify you for the National Merit Scholarship, attract early interest from colleges, and boost your SAT preparation.</p>
+                                        <p>It can qualify you for the National Merit Scholarship, attract early interest from colleges, and boost your PSAT preparation.</p>
                                     </div>
                                 </div>
                             </div>

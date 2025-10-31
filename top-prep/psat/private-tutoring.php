@@ -94,8 +94,8 @@
 
     <section class="greysec">
         <div class="container">
-            <div class="kplna-card">
-                <div class="crd_kpln" data-aos="fade-left">
+            <div class="kplna-card" data-aos="fade-up">
+                <div class="crd_kpln">
                 <div class="klpn_imgLogo">
                         <img src="<?php echo $base_url; ?>assets/imgs/logo/kaplan.svg" alt="Kaplan">
                     </div>
@@ -121,7 +121,7 @@
                 </div>
                 <!--  -->
                 <!--  -->
-                <div class="kpln_dtlimg" data-aos="fade-right">
+                <div class="kpln_dtlimg">
                     <img src="<?php echo $base_url; ?>assets/imgs/satprep/ap/ap-biology.jpg" class="covimg" alt="Biology">
                 </div>
                 <!--  -->

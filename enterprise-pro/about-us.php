@@ -12,7 +12,7 @@
 
 <body class="enterprise_color">
     <!-- header -->
-    <?php include '../components/header.php'; ?>
+    <?php include '../components/enterprise-header.php'; ?>
     <!-- header -->
     <div class="pt-space"></div>
 
@@ -59,7 +59,7 @@
                         <p>Corporate Clients</p>
                     </div>
                     <div>
-                        <h2><span class="count" data-count="10000">0</span>K+</h2>
+                        <h2><span class="count" data-count="10">0</span>K+</h2>
                         <p>Corporate Participants</p>
                     </div>
                     <div>
@@ -71,7 +71,7 @@
                         <p>University Clients</p>
                     </div>
                     <div>
-                        <h2><span class="count" data-count="30000">0</span>K+</h2>
+                        <h2><span class="count" data-count="30">0</span>K+</h2>
                         <p>University Students</p>
                     </div>
                 </div>
@@ -80,10 +80,10 @@
         </div>
     </section>
 
-    <section>
+    <section class="trnlst">
         <div class="container">
             <h2 class="blue_mnhdng text-center">Why Our Training Stands Out</h2>
-            <div class="trning">
+            <div class="trning" data-aos="fade-up">
                 <div class="trn-lf">
                     <ul>
                         <li>
@@ -171,7 +171,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="atcoresec">
         <div class="container">
             <div class="msimg" data-aos="fade-up">
                 <img src="<?php echo $base_url; ?>assets/imgs/enterprise/about/about2.webp" alt="About Banner" width="1312" height="480">
@@ -185,7 +185,7 @@
     <section class="abmnrsec">
         <div class="container">
             <h2 class="blue_mnhdng text-center">Built by Market-Focused Experts</h2>
-            <div class="tch">
+            <div class="tch" data-aos="fade-up">
                 <div class="tch-img">
                     <img src="<?php echo $base_url; ?>assets/imgs/enterprise/about/about3.webp" alt="About 3" width="640" height="320">
                 </div>
@@ -219,13 +219,13 @@
     </section>
 
 
-    <section>
+    <section class="upsklsce">
         <div class="container">
             <div class="hdng text-center">
                 <h2 class="blue_mnhdng">Upskill, Lead and Succeed</h2>
                 <p>Programs designed to equip individuals and institutions with industry-ready skills</p>
             </div>
-            <div class="we_offer">
+            <div class="we_offer" data-aos="fade-up">
                 <div class="afr_sld slick-slider">
                     <div class="item">
                         <div class="ofr_img">
@@ -299,7 +299,7 @@
                                 <p>Bridge the gap between academic learning and industry expectations in higher education.</p>
                             </div>
                             <div class="oftr_btn">
-                                <a href="#" class="primary_btn"><span>know More</span> <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="https://www.w3.org/2000/svg">
+                                <a href="#" class="primary_btn"><span>Know More</span> <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="https://www.w3.org/2000/svg">
                                         <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
                                     </svg></a>
                             </div>
@@ -319,7 +319,7 @@
                 <h2 class="text-center blue_mnhdng">Meet Our Mentors</h2>
                 <p>Learn from top global faculty, industry experts, and certified trainers who mentor<br> you through every step of your test prep and admissions journey.</p>
             </div>
-            <div class="founders_tab" data-tab-section>
+            <div class="founders_tab" data-tab-section data-aos="fade-up">
                 <ul class="tab-buttons">
                     <li class="tb-cntnt trndflx" data-tab="tab1">
                         <div class="founder_img">
@@ -408,7 +408,7 @@
     </section>
     <!-- Founders -->
 
-    <section>
+    <section class="abt_clints">
         <h2 class="blue_mnhdng text-center">Partnering for Professional Growth</h2>
         <div class="container">
             <div class="allcorporates">
@@ -498,7 +498,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="clntlogos">
         <div class="container">
             <div class="prtflex">
                 <div class="prtlf">

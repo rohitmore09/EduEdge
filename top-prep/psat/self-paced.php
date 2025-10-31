@@ -261,18 +261,18 @@
                     <div class="right_txt">
                         <div class="mnprc">
                             <div class="prcdtl">
-                                <h3 class="prchd">Kaplan Standard SAT Prep</h3>
+                                <h3 class="prchd">Kaplan Standard PSAT Prep</h3>
                                 <p>Foundational guidance and 
                                     access to key resources</p>
                                 <p>1300+</p>
-                                <p>Self-paced with Kaplan on-demand SAT Prep</p>
+                                <p>Self-paced with Kaplan on-demand PSAT Prep</p>
                                 <p>Kaplan Live Online</p>
                                 <p>3</p>
                                 <p>No. Once a week 1 hour slot</p>
                                 <p></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">65,000</span> + GST</p>
+                                    <p>INR<span class="fntbg">35,000</span> + GST</p>
                                     <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                                         </svg></button> -->
@@ -289,14 +289,14 @@
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">110,000</span> + GST</p>
+                                    <p>INR<span class="fntbg">80,000</span> + GST</p>
                                     <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                                         </svg></button> -->
                                 </div>
                             </div>
                             <div class="prcdtl">
-                                <h3 class="prchd">1:1 Tutored SAT Prep</h3>
+                                <h3 class="prchd">1:1 Tutored PSAT Prep</h3>
                                 <p>Personalized, 1:1 Mentorship with tailored strategy</p>
                                 <p>1400 - 1550+</p>
                                 <p>Live Offline/Online 80+ hours of 
@@ -307,7 +307,7 @@
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <p><img src="<?php echo $base_url; ?>assets/imgs/satprep/icons/tick.svg" alt="Tick"></p>
                                 <div class="actprl">
-                                    <p>INR<span class="fntbg">2,25,000</span> + GST</p>
+                                    <p>INR<span class="fntbg">1,75,000</span> + GST</p>
                                     <!-- <button class="prcbtn"><span>Buy Now</span><svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
                                         </svg></button> -->

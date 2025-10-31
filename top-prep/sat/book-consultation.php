@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sat - Book Consultation</title>
     <meta name="description" content="">
-    <meta name="robots" content="index, follow">
+    <!--<meta name="robots" content="index, follow">
     <meta property="og:title" content="Private Tutoring | EduEdge Pro">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
@@ -15,7 +15,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Private Tutoring | EduEdge Pro">
     <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">
+    <meta name="twitter:image" content="https://eduedgepro.com/assets/imgs/logo/logo.svg">-->
     <!-- css -->
     <?php include '../../style_css.php'; ?>
     <!-- css -->

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAT Coaching in Mumbai for 10th & 12th | EduEdge</title>
-    <meta name="description" content="Join EduEdge Global’s SAT coaching in Mumbai. Expert mentoring and personalized prep for 10th & 12th students to achieve top SAT scores and study abroad success.">
+    <meta name="description" content="Join EduEdge Globalï¿½s SAT coaching in Mumbai. Expert mentoring and personalized prep for 10th & 12th students to achieve top SAT scores and study abroad success.">
     <meta name="keywords" content="SAT preparation classes Mumbai">  
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="SAT Prep | EduEdge Pro">
