@@ -216,6 +216,7 @@ section {padding: 60px 0px;}
   left: 20px;
 }
 
+
 /* Dots */
 
 /* Default */
@@ -796,6 +797,9 @@ footer {
 .hmcntr h2 span{color:var(--paragraph);font-size:35px}
 .emprwng{margin-top:-51px;}
 .emprwng img{width: 100%;height: auto;}
+
+
+.sldier_section .stprepform{position: absolute;top: 25%;right: 10%;}
 
 .stdentpr{display: flex;}
 .stdentpr .stdybrd{width: 50%;background: var(--green);position: relative;padding: 60px 30px;overflow: hidden;border-top-left-radius: 20px;border-bottom-left-radius: 20px;}
@@ -8062,6 +8066,10 @@ select {
     height: 100vh;
     object-fit: cover;
   }
+
+  /* banner form */
+  .sldier_section .stprepform{position: inherit;}
+
   /* ---second section--- */
   .infhd {
     margin-bottom: 20px;

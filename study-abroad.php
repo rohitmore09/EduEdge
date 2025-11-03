@@ -132,6 +132,11 @@
             <!-- nav -->
         </div>
         <!-- slider -->
+         <!-- Form -->
+          <div class="stprepform" id="bnfrm">
+          <?php include 'components/forms/satprep_form.php';?>
+          </div>
+         <!-- Form -->
     </div>
 
     <section class="btns_sec">
@@ -1181,7 +1186,7 @@
                 <div class="infrast">
                     <h2 class="blue_mnhdng">Built for Learning, Designed for Results</h2>
                     <p>Modern, tech-enabled spaces that put student success at the center.</p>
-                    <a class="primary__btn openModalBtn">
+                    <a class="primary__btn" href="#bnfrm">
                         <span>Get a Free Consultation</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="https://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
@@ -1261,7 +1266,7 @@
                 </div>
                 <div class="infrast">
                     <h2 class="blue_mnhdng">Take the First Step Toward World-Class Education</h2>
-                    <a class="secondary-btn openModalBtn">
+                    <a class="secondary-btn" href="#bnfrm">
                         <span>Schedule a Free Consultation</span>
                         <svg width="10" height="15" viewBox="0 0 10 19" fill="none" xmlns="https://www.w3.org/2000/svg">
                             <path d="M1 1.5L9 9.5L1 17.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
